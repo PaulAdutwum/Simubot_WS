@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/simubot_vision
+simubot_vision/__init__.py
+simubot_vision/vision_node.py
+simubot_vision.egg-info/PKG-INFO
+simubot_vision.egg-info/SOURCES.txt
+simubot_vision.egg-info/dependency_links.txt
+simubot_vision.egg-info/entry_points.txt
+simubot_vision.egg-info/requires.txt
+simubot_vision.egg-info/top_level.txt
+simubot_vision.egg-info/zip-safe

@@ -1,0 +1,8 @@
+source;share/simubot_launch/hook/cmake_prefix_path.ps1
+source;share/simubot_launch/hook/cmake_prefix_path.dsv
+source;share/simubot_launch/hook/cmake_prefix_path.sh
+source;share/simubot_launch/local_setup.bash
+source;share/simubot_launch/local_setup.dsv
+source;share/simubot_launch/local_setup.ps1
+source;share/simubot_launch/local_setup.sh
+source;share/simubot_launch/local_setup.zsh

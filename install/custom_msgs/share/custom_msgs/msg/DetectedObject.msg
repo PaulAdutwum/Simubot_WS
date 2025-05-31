@@ -1,0 +1,1 @@
+/home/ros2/simu_ws/src/custom_msgs/msg/DetectedObject.msg

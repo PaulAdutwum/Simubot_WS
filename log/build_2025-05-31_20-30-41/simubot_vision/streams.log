@@ -1,0 +1,16 @@
+[0.880s] Invoking command in '/home/ros2/simu_ws/build/simubot_vision': CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs:/home/ros2/simu_ws/install/turtlebot3:/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/simubot_launch:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/home/ros2/simu_ws/install/simubot_decision PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/simubot_vision/build --no-deps symlink_data
+[1.173s] running develop
+[1.272s] running egg_info
+[1.272s] writing simubot_vision.egg-info/PKG-INFO
+[1.273s] writing dependency_links to simubot_vision.egg-info/dependency_links.txt
+[1.275s] writing entry points to simubot_vision.egg-info/entry_points.txt
+[1.276s] writing requirements to simubot_vision.egg-info/requires.txt
+[1.277s] writing top-level names to simubot_vision.egg-info/top_level.txt
+[1.280s] reading manifest file 'simubot_vision.egg-info/SOURCES.txt'
+[1.284s] writing manifest file 'simubot_vision.egg-info/SOURCES.txt'
+[1.285s] running build_ext
+[1.288s] Creating /home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages/simubot-vision.egg-link (link to .)
+[1.289s] 
+[1.292s] Installed /home/ros2/simu_ws/build/simubot_vision
+[1.293s] running symlink_data
+[1.314s] Invoked command in '/home/ros2/simu_ws/build/simubot_vision' returned '0': CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs:/home/ros2/simu_ws/install/turtlebot3:/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/simubot_launch:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/home/ros2/simu_ws/install/simubot_decision PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/simubot_vision/build --no-deps symlink_data

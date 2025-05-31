@@ -1,0 +1,1 @@
+/home/ros2/simu_ws/src/simubot_launch/launch/simubot_full.launch.py

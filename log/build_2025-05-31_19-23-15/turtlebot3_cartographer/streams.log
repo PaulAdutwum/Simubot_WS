@@ -1,0 +1,19 @@
+[0.079s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/simu_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_cartographer
+[0.587s] -- The C compiler identification is GNU 11.4.0
+[0.964s] -- The CXX compiler identification is GNU 11.4.0
+[1.002s] -- Detecting C compiler ABI info
+[1.701s] -- Detecting C compiler ABI info - done
+[1.727s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.730s] -- Detecting C compile features
+[1.730s] -- Detecting C compile features - done
+[1.737s] -- Detecting CXX compiler ABI info
+[2.374s] -- Detecting CXX compiler ABI info - done
+[2.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.403s] -- Detecting CXX compile features
+[2.403s] -- Detecting CXX compile features - done
+[2.411s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.031s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.466s] -- Configuring done
+[3.507s] -- Generating done
+[3.529s] -- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_cartographer

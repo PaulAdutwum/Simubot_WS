@@ -1,0 +1,22 @@
+[1.572s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_example': PYTHONPATH=/home/ros2/simu_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/turtlebot3_example/build --no-deps symlink_data
+[1.900s] running develop
+[2.022s] running egg_info
+[2.022s] writing turtlebot3_example.egg-info/PKG-INFO
+[2.023s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[2.025s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[2.025s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[2.026s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[2.031s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.033s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[2.035s] running build_ext
+[2.035s] Creating /home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[2.039s] Installing turtlebot3_absolute_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.042s] Installing turtlebot3_interactive_marker script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.044s] Installing turtlebot3_obstacle_detection script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.045s] Installing turtlebot3_patrol_client script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.046s] Installing turtlebot3_patrol_server script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.046s] Installing turtlebot3_relative_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example
+[2.047s] 
+[2.048s] Installed /home/ros2/simu_ws/build/turtlebot3_example
+[2.049s] running symlink_data
+[2.068s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/ros2/simu_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/turtlebot3_example/build --no-deps symlink_data

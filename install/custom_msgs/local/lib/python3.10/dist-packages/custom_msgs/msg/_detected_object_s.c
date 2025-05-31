@@ -1,0 +1,1 @@
+/home/ros2/simu_ws/build/custom_msgs/rosidl_generator_py/custom_msgs/msg/_detected_object_s.c

@@ -1,0 +1,22 @@
+[0.070s] Invoking command in '/home/ros2/simu_ws/build/simubot_launch': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_launch -- -j10 -l10
+[0.361s] Invoked command in '/home/ros2/simu_ws/build/simubot_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_launch -- -j10 -l10
+[0.366s] Invoking command in '/home/ros2/simu_ws/build/simubot_launch': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_launch
+[0.422s] -- Install configuration: ""
+[0.424s] -- Execute custom install script
+[0.437s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/simubot_full.launch.py
+[0.474s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/package_run_dependencies/simubot_launch
+[0.518s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/parent_prefix_path/simubot_launch
+[0.565s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.sh
+[0.600s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.dsv
+[0.637s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.sh
+[0.673s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.dsv
+[0.716s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.bash
+[0.755s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.sh
+[0.791s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.zsh
+[0.825s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.dsv
+[0.862s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.dsv
+[0.901s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/packages/simubot_launch
+[0.937s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig.cmake
+[0.991s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig-version.cmake
+[1.019s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.xml
+[1.060s] Invoked command in '/home/ros2/simu_ws/build/simubot_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_launch

@@ -1,0 +1,16 @@
+/home/ros2/simu_ws/install/simubot_decision/lib/simubot_decision/decision_engine
+/home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/package_run_dependencies/simubot_decision
+/home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/parent_prefix_path/simubot_decision
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.sh
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.dsv
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.sh
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.dsv
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.bash
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.sh
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.zsh
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.dsv
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.dsv
+/home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/packages/simubot_decision
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig.cmake
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig-version.cmake
+/home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.xml

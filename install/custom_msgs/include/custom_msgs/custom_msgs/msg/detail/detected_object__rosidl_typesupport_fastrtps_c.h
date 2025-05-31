@@ -1,0 +1,1 @@
+/home/ros2/simu_ws/build/custom_msgs/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_c.h

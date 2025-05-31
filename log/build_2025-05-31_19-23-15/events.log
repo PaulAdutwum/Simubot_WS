@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.001715] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.001966] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.002122] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.002401] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.003305] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.003404] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.003493] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.003619] (simubot_decision) JobQueued: {'identifier': 'simubot_decision', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs')])}
+[0.004636] (simubot_vision) JobQueued: {'identifier': 'simubot_vision', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs')])}
+[0.004711] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/ros2/simu_ws/install/turtlebot3_node')])}
+[0.004767] (simubot_launch) JobQueued: {'identifier': 'simubot_launch', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs'), ('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('simubot_decision', '/home/ros2/simu_ws/install/simubot_decision'), ('simubot_vision', '/home/ros2/simu_ws/install/simubot_vision')])}
+[0.004826] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_cartographer', '/home/ros2/simu_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/ros2/simu_ws/install/turtlebot3_example'), ('turtlebot3_navigation2', '/home/ros2/simu_ws/install/turtlebot3_navigation2'), ('turtlebot3_node', '/home/ros2/simu_ws/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/ros2/simu_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/ros2/simu_ws/install/turtlebot3_bringup')])}
+[0.004879] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.009698] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.015295] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.020034] (turtlebot3_cartographer) JobStarted: {'identifier': 'turtlebot3_cartographer'}
+[0.030039] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.050497] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.055850] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.074866] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.076342] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/custom_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/custom_msgs'], 'cwd': '/home/ros2/simu_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2/simu_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.081768] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.084696] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_description'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2/simu_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.088359] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.090995] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_node'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_node', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2/simu_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094199] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'cmake'}
+[0.098312] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_cartographer', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_cartographer'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_cartographer', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2/simu_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_cartographer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.106187] (-) TimerEvent: {}
+[0.207146] (-) TimerEvent: {}
+[0.309077] (-) TimerEvent: {}
+[0.380094] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.385995] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_navigation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_navigation2'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2/simu_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.409995] (-) TimerEvent: {}
+[0.511084] (-) TimerEvent: {}
+[0.590494] (custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.595874] (turtlebot3_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.608840] (turtlebot3_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.610024] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.611535] (-) TimerEvent: {}
+[0.712020] (-) TimerEvent: {}
+[0.818155] (-) TimerEvent: {}
+[0.860616] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.919262] (-) TimerEvent: {}
+[0.976388] (turtlebot3_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.987131] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.990075] (turtlebot3_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.006458] (custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.016031] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.020241] (-) TimerEvent: {}
+[1.023592] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.026636] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.048093] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.091686] (turtlebot3_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2/simu_ws/build/turtlebot3_example/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_example', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros2/simu_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros2/simu_ws/build/turtlebot3_example', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros2/simu_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.116231] (turtlebot3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2/simu_ws/build/turtlebot3_teleop/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_teleop', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/ros2/simu_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros2/simu_ws/build/turtlebot3_teleop', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros2/simu_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.122402] (-) TimerEvent: {}
+[1.223411] (-) TimerEvent: {}
+[1.252153] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.302598] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.324119] (-) TimerEvent: {}
+[1.415620] (turtlebot3_example) StdoutLine: {'line': b'running develop\n'}
+[1.420544] (turtlebot3_teleop) StdoutLine: {'line': b'running develop\n'}
+[1.426123] (-) TimerEvent: {}
+[1.501304] (turtlebot3_example) StdoutLine: {'line': b'running egg_info\n'}
+[1.502271] (turtlebot3_example) StdoutLine: {'line': b'creating turtlebot3_example.egg-info\n'}
+[1.503731] (turtlebot3_example) StdoutLine: {'line': b'writing turtlebot3_example.egg-info/PKG-INFO\n'}
+[1.504482] (turtlebot3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[1.504884] (turtlebot3_teleop) StdoutLine: {'line': b'creating turtlebot3_teleop.egg-info\n'}
+[1.505846] (turtlebot3_teleop) StdoutLine: {'line': b'writing turtlebot3_teleop.egg-info/PKG-INFO\n'}
+[1.507029] (turtlebot3_example) StdoutLine: {'line': b'writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt\n'}
+[1.507793] (turtlebot3_teleop) StdoutLine: {'line': b'writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt\n'}
+[1.508925] (turtlebot3_example) StdoutLine: {'line': b'writing entry points to turtlebot3_example.egg-info/entry_points.txt\n'}
+[1.509589] (turtlebot3_teleop) StdoutLine: {'line': b'writing entry points to turtlebot3_teleop.egg-info/entry_points.txt\n'}
+[1.510316] (turtlebot3_example) StdoutLine: {'line': b'writing requirements to turtlebot3_example.egg-info/requires.txt\n'}
+[1.511368] (turtlebot3_example) StdoutLine: {'line': b'writing top-level names to turtlebot3_example.egg-info/top_level.txt\n'}
+[1.511978] (turtlebot3_teleop) StdoutLine: {'line': b'writing requirements to turtlebot3_teleop.egg-info/requires.txt\n'}
+[1.512841] (turtlebot3_teleop) StdoutLine: {'line': b'writing top-level names to turtlebot3_teleop.egg-info/top_level.txt\n'}
+[1.513676] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[1.514900] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[1.515686] (turtlebot3_teleop) StdoutLine: {'line': b"reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[1.518011] (turtlebot3_example) StdoutLine: {'line': b"reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[1.518950] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[1.524962] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[1.525191] (turtlebot3_teleop) StdoutLine: {'line': b'running build_ext\n'}
+[1.525386] (turtlebot3_teleop) StdoutLine: {'line': b'Creating /home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)\n'}
+[1.525540] (turtlebot3_example) StdoutLine: {'line': b'running build_ext\n'}
+[1.525688] (turtlebot3_example) StdoutLine: {'line': b'Creating /home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)\n'}
+[1.526736] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_absolute_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.527834] (-) TimerEvent: {}
+[1.528282] (turtlebot3_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/ros2/simu_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop\n'}
+[1.529880] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_interactive_marker script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.531977] (turtlebot3_teleop) StdoutLine: {'line': b'\n'}
+[1.533045] (turtlebot3_teleop) StdoutLine: {'line': b'Installed /home/ros2/simu_ws/build/turtlebot3_teleop\n'}
+[1.535664] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_obstacle_detection script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.536425] (turtlebot3_teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[1.536981] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index\n'}
+[1.537463] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index\n'}
+[1.538231] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[1.540076] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_client script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.541484] (turtlebot3_teleop) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[1.543356] (turtlebot3_teleop) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_teleop/package.xml -> /home/ros2/simu_ws/install/turtlebot3_teleop/share/turtlebot3_teleop\n'}
+[1.544508] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_server script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.545481] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_relative_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[1.546378] (turtlebot3_example) StdoutLine: {'line': b'\n'}
+[1.547260] (turtlebot3_example) StdoutLine: {'line': b'Installed /home/ros2/simu_ws/build/turtlebot3_example\n'}
+[1.547549] (turtlebot3_example) StdoutLine: {'line': b'running symlink_data\n'}
+[1.548104] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index\n'}
+[1.548559] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index\n'}
+[1.551703] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[1.552039] (turtlebot3_example) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[1.552298] (turtlebot3_example) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_example/package.xml -> /home/ros2/simu_ws/install/turtlebot3_example/share/turtlebot3_example\n'}
+[1.561773] (turtlebot3_teleop) CommandEnded: {'returncode': 0}
+[1.625417] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 0}
+[1.631610] (-) TimerEvent: {}
+[1.631818] (turtlebot3_example) CommandEnded: {'returncode': 0}
+[1.669545] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 0}
+[1.680678] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.702218] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.703291] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.703882] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.704250] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.717778] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.721112] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.721567] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.722466] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.724440] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.730990] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.734995] (-) TimerEvent: {}
+[1.744319] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.750199] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.753150] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.753615] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.759770] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.772768] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.774516] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.775165] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.780731] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.839015] (-) TimerEvent: {}
+[1.944012] (-) TimerEvent: {}
+[2.032665] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.045982] (-) TimerEvent: {}
+[2.051186] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.052258] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.052518] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.055989] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.149239] (-) TimerEvent: {}
+[2.250035] (-) TimerEvent: {}
+[2.351045] (-) TimerEvent: {}
+[2.375570] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.385520] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.395670] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.398174] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.402053] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.402379] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.409284] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.410907] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.412933] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.414379] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.415553] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.422692] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.426191] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.426460] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.426663] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.434637] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.434865] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.436613] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.437254] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.450158] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.454159] (-) TimerEvent: {}
+[2.555025] (-) TimerEvent: {}
+[2.651988] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.656001] (-) TimerEvent: {}
+[2.681046] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.681726] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.682243] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.691742] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.758016] (-) TimerEvent: {}
+[2.865027] (-) TimerEvent: {}
+[2.970021] (-) TimerEvent: {}
+[3.042985] (turtlebot3_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.055040] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.065718] (turtlebot3_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.070985] (-) TimerEvent: {}
+[3.084484] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.172021] (-) TimerEvent: {}
+[3.201376] (turtlebot3_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.224019] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.235131] (turtlebot3_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.242043] (custom_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.258460] (turtlebot3_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[3.259998] (turtlebot3_node) StderrLine: {'line': b'  By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.260379] (turtlebot3_node) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.260867] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk", but CMake did not find one.\n'}
+[3.266159] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[3.266322] (turtlebot3_node) StderrLine: {'line': b'  Could not find a package configuration file provided by "dynamixel_sdk"\n'}
+[3.266464] (turtlebot3_node) StderrLine: {'line': b'  with any of the following names:\n'}
+[3.266748] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[3.267052] (turtlebot3_node) StderrLine: {'line': b'    dynamixel_sdkConfig.cmake\n'}
+[3.267221] (turtlebot3_node) StderrLine: {'line': b'    dynamixel_sdk-config.cmake\n'}
+[3.267345] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[3.267488] (turtlebot3_node) StderrLine: {'line': b'  Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set\n'}
+[3.268739] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk_DIR" to a directory containing one of the above files.  If\n'}
+[3.269215] (turtlebot3_node) StderrLine: {'line': b'  "dynamixel_sdk" provides a separate development package or SDK, be sure it\n'}
+[3.270090] (turtlebot3_node) StderrLine: {'line': b'  has been installed.\n'}
+[3.271290] (turtlebot3_node) StderrLine: {'line': b'\n'}
+[3.271582] (turtlebot3_node) StderrLine: {'line': b'\x1b[0m\n'}
+[3.272246] (-) TimerEvent: {}
+[3.272400] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.272828] (turtlebot3_node) StdoutLine: {'line': b'See also "/home/ros2/simu_ws/build/turtlebot3_node/CMakeFiles/CMakeOutput.log".\n'}
+[3.274515] (turtlebot3_node) CommandEnded: {'returncode': 1}
+[3.295089] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.296410] (turtlebot3_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[3.307987] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.373021] (-) TimerEvent: {}
+[3.389028] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 1}
+[3.465831] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.474085] (-) TimerEvent: {}
+[3.489121] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.508140] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.515208] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.530865] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Generating done\n'}
+[3.532031] (custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.552107] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_cartographer\n'}
+[3.559346] (turtlebot3_cartographer) JobEnded: {'identifier': 'turtlebot3_cartographer', 'rc': 'SIGINT'}
+[3.567793] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.568915] (custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.574995] (-) TimerEvent: {}
+[3.587337] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/custom_msgs\n'}
+[3.594064] (turtlebot3_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.594781] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 'SIGINT'}
+[3.613975] (turtlebot3_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_description\n'}
+[3.618354] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 'SIGINT'}
+[3.676070] (-) TimerEvent: {}
+[3.685025] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.702898] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.718194] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_navigation2\n'}
+[3.723418] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 'SIGINT'}
+[3.734900] (simubot_decision) JobSkipped: {'identifier': 'simubot_decision'}
+[3.735012] (simubot_vision) JobSkipped: {'identifier': 'simubot_vision'}
+[3.735091] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[3.735196] (simubot_launch) JobSkipped: {'identifier': 'simubot_launch'}
+[3.735324] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[3.735436] (-) EventReactorShutdown: {}

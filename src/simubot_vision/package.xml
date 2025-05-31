@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>simubot_vision</name>
+  <version>0.0.0</version>
+  <description>SimuBot vision node (object detection)</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Buildtool must be ament_python for a pure‐Python ROS2 package -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies (Python ROS client, message types, cv_bridge) -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>custom_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- (Optional) Lint/test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <!-- Tells ament that this is an ament_python package -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>
