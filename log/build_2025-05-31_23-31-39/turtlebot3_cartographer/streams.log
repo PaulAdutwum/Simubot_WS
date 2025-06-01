@@ -1,0 +1,45 @@
+[0.143s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/simu_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_cartographer
+[0.656s] -- The C compiler identification is GNU 11.4.0
+[1.213s] -- The CXX compiler identification is GNU 11.4.0
+[1.255s] -- Detecting C compiler ABI info
+[2.622s] -- Detecting C compiler ABI info - done
+[2.651s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.655s] -- Detecting C compile features
+[2.660s] -- Detecting C compile features - done
+[2.682s] -- Detecting CXX compiler ABI info
+[3.501s] -- Detecting CXX compiler ABI info - done
+[3.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.521s] -- Detecting CXX compile features
+[3.521s] -- Detecting CXX compile features - done
+[3.537s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.238s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.412s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.666s] -- Configuring done
+[4.691s] -- Generating done
+[4.731s] -- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_cartographer
+[4.738s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/simu_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_cartographer
+[4.752s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_cartographer -- -j10 -l10
+[5.031s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_cartographer -- -j10 -l10
+[5.111s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_cartographer
+[5.219s] -- Install configuration: ""
+[5.224s] -- Execute custom install script
+[5.231s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[5.274s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[5.317s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[5.359s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[5.405s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[5.445s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[5.483s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[5.547s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[5.611s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[5.668s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[5.714s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[5.764s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[5.809s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[5.855s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[5.903s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[5.954s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[6.016s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[6.084s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[6.133s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[6.186s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_cartographer

@@ -1,0 +1,25 @@
+[0.178s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_cartographer -- -j10 -l10
+[1.123s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_cartographer -- -j10 -l10
+[1.237s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_cartographer
+[1.308s] -- Install configuration: ""
+[1.317s] -- Execute custom install script
+[1.331s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.336s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.338s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.343s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.345s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.346s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.350s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.353s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.356s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.363s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.378s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.385s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.396s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.400s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.403s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.487s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.489s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.490s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.495s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.497s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_cartographer

@@ -1,1 +1,0 @@
-/home/ros2/simu_ws/src/simubot_vision/setup.py

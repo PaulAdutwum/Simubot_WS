@@ -1,0 +1,29 @@
+[0.197s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_node -- -j10 -l10
+[0.949s] [ 85%] Built target turtlebot3_node_lib
+[1.353s] [100%] Built target turtlebot3_ros
+[1.467s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_node -- -j10 -l10
+[1.485s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_node
+[1.615s] -- Install configuration: ""
+[1.619s] -- Execute custom install script
+[1.619s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[1.622s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[1.624s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[1.628s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[1.629s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[1.630s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[1.631s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[1.631s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[1.632s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[1.632s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[1.633s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[1.633s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[1.634s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[1.634s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[1.635s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[1.671s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[1.673s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.674s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.675s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[1.676s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[1.677s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[1.844s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/simubot_vision:/opt/ros/humble /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_node

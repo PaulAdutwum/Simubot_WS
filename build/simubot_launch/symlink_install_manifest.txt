@@ -1,4 +1,5 @@
 /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/simubot_full.launch.py
+/home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/simubot_nodes.launch.py
 /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/package_run_dependencies/simubot_launch
 /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/parent_prefix_path/simubot_launch
 /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.sh

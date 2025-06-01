@@ -1,0 +1,33 @@
+[0.493s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_navigation2': /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_navigation2 -- -j10 -l10
+[0.930s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_navigation2' returned '0': /usr/bin/cmake --build /home/ros2/simu_ws/build/turtlebot3_navigation2 -- -j10 -l10
+[0.964s] Invoking command in '/home/ros2/simu_ws/build/turtlebot3_navigation2': /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_navigation2
+[1.072s] -- Install configuration: ""
+[1.076s] -- Execute custom install script
+[1.078s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.079s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.092s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.097s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.102s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.104s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.105s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.106s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.108s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.111s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.112s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.118s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.119s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.121s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.128s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.129s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.136s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.145s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.157s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.172s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.185s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.208s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.214s] -- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.220s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.223s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.226s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.229s] -- Up-to-date symlink: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.275s] Invoked command in '/home/ros2/simu_ws/build/turtlebot3_navigation2' returned '0': /usr/bin/cmake --install /home/ros2/simu_ws/build/turtlebot3_navigation2

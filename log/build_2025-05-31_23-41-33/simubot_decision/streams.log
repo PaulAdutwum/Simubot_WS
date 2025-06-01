@@ -1,0 +1,24 @@
+[0.096s] Invoking command in '/home/ros2/simu_ws/build/simubot_decision': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_decision -- -j10 -l10
+[0.428s] [35m[1mConsolidate compiler generated dependencies of target decision_engine[0m
+[0.661s] [100%] Built target decision_engine
+[0.709s] Invoked command in '/home/ros2/simu_ws/build/simubot_decision' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_decision -- -j10 -l10
+[0.719s] Invoking command in '/home/ros2/simu_ws/build/simubot_decision': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_decision
+[0.781s] -- Install configuration: ""
+[0.781s] -- Execute custom install script
+[0.794s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/lib/simubot_decision/decision_engine
+[0.794s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/package_run_dependencies/simubot_decision
+[0.795s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/parent_prefix_path/simubot_decision
+[0.795s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.sh
+[0.795s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.dsv
+[0.797s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.sh
+[0.797s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.dsv
+[0.798s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.bash
+[0.798s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.sh
+[0.802s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.zsh
+[0.803s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.dsv
+[0.803s] -- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.dsv
+[0.835s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/packages/simubot_decision
+[0.836s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig.cmake
+[0.837s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig-version.cmake
+[0.839s] -- Up-to-date symlink: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.xml
+[0.844s] Invoked command in '/home/ros2/simu_ws/build/simubot_decision' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_decision

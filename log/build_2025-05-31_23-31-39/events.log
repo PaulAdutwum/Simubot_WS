@@ -1,0 +1,1466 @@
+[0.000000] (-) TimerEvent: {}
+[0.001106] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.001524] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.001720] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.001922] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict()}
+[0.002031] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.002118] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict()}
+[0.002200] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.002301] (simubot_decision) JobQueued: {'identifier': 'simubot_decision', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs')])}
+[0.002461] (simubot_vision) JobQueued: {'identifier': 'simubot_vision', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs')])}
+[0.002585] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('turtlebot3_node', '/home/ros2/simu_ws/install/turtlebot3_node')])}
+[0.002692] (simubot_launch) JobQueued: {'identifier': 'simubot_launch', 'dependencies': OrderedDict([('custom_msgs', '/home/ros2/simu_ws/install/custom_msgs'), ('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('simubot_decision', '/home/ros2/simu_ws/install/simubot_decision'), ('simubot_vision', '/home/ros2/simu_ws/install/simubot_vision')])}
+[0.002774] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('turtlebot3_cartographer', '/home/ros2/simu_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/home/ros2/simu_ws/install/turtlebot3_description'), ('turtlebot3_example', '/home/ros2/simu_ws/install/turtlebot3_example'), ('turtlebot3_navigation2', '/home/ros2/simu_ws/install/turtlebot3_navigation2'), ('turtlebot3_node', '/home/ros2/simu_ws/install/turtlebot3_node'), ('turtlebot3_teleop', '/home/ros2/simu_ws/install/turtlebot3_teleop'), ('turtlebot3_bringup', '/home/ros2/simu_ws/install/turtlebot3_bringup')])}
+[0.002882] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.012170] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.020480] (turtlebot3_node) JobStarted: {'identifier': 'turtlebot3_node'}
+[0.030195] (turtlebot3_cartographer) JobStarted: {'identifier': 'turtlebot3_cartographer'}
+[0.046176] (turtlebot3_example) JobStarted: {'identifier': 'turtlebot3_example'}
+[0.074008] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.083590] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.092075] (-) TimerEvent: {}
+[0.119163] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.121719] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/custom_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/custom_msgs'], 'cwd': '/home/ros2/simu_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.130142] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.131398] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_description'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.137232] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'cmake'}
+[0.147933] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_node'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_node', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.151871] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'cmake'}
+[0.153697] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_cartographer', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_cartographer'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_cartographer', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_cartographer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.193283] (-) TimerEvent: {}
+[0.296139] (-) TimerEvent: {}
+[0.396957] (-) TimerEvent: {}
+[0.499502] (-) TimerEvent: {}
+[0.520111] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.527707] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_navigation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_navigation2'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.599966] (-) TimerEvent: {}
+[0.682338] (turtlebot3_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.687108] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.689349] (turtlebot3_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.701050] (-) TimerEvent: {}
+[0.710944] (custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.801984] (-) TimerEvent: {}
+[0.938406] (-) TimerEvent: {}
+[1.044971] (-) TimerEvent: {}
+[1.165428] (-) TimerEvent: {}
+[1.220035] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.239276] (turtlebot3_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.241408] (turtlebot3_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.242621] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.265949] (-) TimerEvent: {}
+[1.282277] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.284799] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.291726] (custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.294490] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.357725] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.367056] (-) TimerEvent: {}
+[1.469664] (-) TimerEvent: {}
+[1.607315] (-) TimerEvent: {}
+[1.731930] (-) TimerEvent: {}
+[1.771217] (turtlebot3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2/simu_ws/build/turtlebot3_teleop/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_teleop', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros2/simu_ws/build/turtlebot3_teleop', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros2/simu_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.800066] (turtlebot3_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2/simu_ws/build/turtlebot3_example/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_example', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/home/ros2/simu_ws/build/turtlebot3_example', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros2/simu_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.835916] (-) TimerEvent: {}
+[1.937026] (-) TimerEvent: {}
+[1.993379] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.037754] (-) TimerEvent: {}
+[2.138936] (-) TimerEvent: {}
+[2.211911] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.240760] (-) TimerEvent: {}
+[2.341643] (-) TimerEvent: {}
+[2.405967] (turtlebot3_teleop) StdoutLine: {'line': b'running develop\n'}
+[2.447327] (-) TimerEvent: {}
+[2.456938] (turtlebot3_example) StdoutLine: {'line': b'running develop\n'}
+[2.547955] (-) TimerEvent: {}
+[2.578646] (turtlebot3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.579974] (turtlebot3_teleop) StdoutLine: {'line': b'creating turtlebot3_teleop.egg-info\n'}
+[2.584948] (turtlebot3_teleop) StdoutLine: {'line': b'writing turtlebot3_teleop.egg-info/PKG-INFO\n'}
+[2.589245] (turtlebot3_teleop) StdoutLine: {'line': b'writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt\n'}
+[2.592739] (turtlebot3_teleop) StdoutLine: {'line': b'writing entry points to turtlebot3_teleop.egg-info/entry_points.txt\n'}
+[2.599323] (turtlebot3_teleop) StdoutLine: {'line': b'writing requirements to turtlebot3_teleop.egg-info/requires.txt\n'}
+[2.603138] (turtlebot3_teleop) StdoutLine: {'line': b'writing top-level names to turtlebot3_teleop.egg-info/top_level.txt\n'}
+[2.608227] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[2.615963] (turtlebot3_example) StdoutLine: {'line': b'running egg_info\n'}
+[2.617607] (turtlebot3_example) StdoutLine: {'line': b'creating turtlebot3_example.egg-info\n'}
+[2.619066] (turtlebot3_example) StdoutLine: {'line': b'writing turtlebot3_example.egg-info/PKG-INFO\n'}
+[2.621468] (turtlebot3_example) StdoutLine: {'line': b'writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt\n'}
+[2.624221] (turtlebot3_example) StdoutLine: {'line': b'writing entry points to turtlebot3_example.egg-info/entry_points.txt\n'}
+[2.625277] (turtlebot3_teleop) StdoutLine: {'line': b"reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[2.626705] (turtlebot3_example) StdoutLine: {'line': b'writing requirements to turtlebot3_example.egg-info/requires.txt\n'}
+[2.628634] (turtlebot3_example) StdoutLine: {'line': b'writing top-level names to turtlebot3_example.egg-info/top_level.txt\n'}
+[2.631756] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[2.632855] (turtlebot3_teleop) StdoutLine: {'line': b"writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'\n"}
+[2.635628] (turtlebot3_teleop) StdoutLine: {'line': b'running build_ext\n'}
+[2.636724] (turtlebot3_teleop) StdoutLine: {'line': b'Creating /home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)\n'}
+[2.646605] (turtlebot3_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/ros2/simu_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop\n'}
+[2.648879] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.653823] (-) TimerEvent: {}
+[2.655621] (turtlebot3_teleop) StdoutLine: {'line': b'\n'}
+[2.656331] (turtlebot3_teleop) StdoutLine: {'line': b'Installed /home/ros2/simu_ws/build/turtlebot3_teleop\n'}
+[2.656885] (turtlebot3_teleop) StdoutLine: {'line': b'running symlink_data\n'}
+[2.657596] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index\n'}
+[2.658182] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index\n'}
+[2.658815] (turtlebot3_teleop) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[2.660786] (turtlebot3_teleop) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/ros2/simu_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages\n'}
+[2.661801] (turtlebot3_teleop) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_teleop/package.xml -> /home/ros2/simu_ws/install/turtlebot3_teleop/share/turtlebot3_teleop\n'}
+[2.663189] (turtlebot3_example) StdoutLine: {'line': b"reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[2.680792] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.682574] (turtlebot3_example) StdoutLine: {'line': b"writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'\n"}
+[2.685303] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.686399] (turtlebot3_example) StdoutLine: {'line': b'running build_ext\n'}
+[2.688348] (turtlebot3_example) StdoutLine: {'line': b'Creating /home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)\n'}
+[2.689658] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.695035] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.697764] (turtlebot3_teleop) CommandEnded: {'returncode': 0}
+[2.701083] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_absolute_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.701572] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_interactive_marker script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.704408] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_obstacle_detection script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.704569] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_client script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.712979] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.714443] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.715461] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.717392] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.719461] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_patrol_server script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.724940] (turtlebot3_example) StdoutLine: {'line': b'Installing turtlebot3_relative_move script to /home/ros2/simu_ws/install/turtlebot3_example/lib/turtlebot3_example\n'}
+[2.733930] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.742206] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.745468] (turtlebot3_example) StdoutLine: {'line': b'\n'}
+[2.746479] (turtlebot3_example) StdoutLine: {'line': b'Installed /home/ros2/simu_ws/build/turtlebot3_example\n'}
+[2.748385] (turtlebot3_example) StdoutLine: {'line': b'running symlink_data\n'}
+[2.749345] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index\n'}
+[2.750642] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index\n'}
+[2.753966] (-) TimerEvent: {}
+[2.754636] (turtlebot3_example) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[2.758043] (turtlebot3_example) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/ros2/simu_ws/install/turtlebot3_example/share/ament_index/resource_index/packages\n'}
+[2.759336] (turtlebot3_example) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/turtlebot3_example/package.xml -> /home/ros2/simu_ws/install/turtlebot3_example/share/turtlebot3_example\n'}
+[2.764128] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.770412] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.773061] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.789931] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.797340] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.827141] (custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.829768] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.832130] (custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.846555] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.855046] (-) TimerEvent: {}
+[2.865219] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 0}
+[2.874395] (turtlebot3_example) CommandEnded: {'returncode': 0}
+[2.957915] (-) TimerEvent: {}
+[3.040646] (turtlebot3_example) JobEnded: {'identifier': 'turtlebot3_example', 'rc': 0}
+[3.058079] (-) TimerEvent: {}
+[3.158967] (-) TimerEvent: {}
+[3.199085] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.236645] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.241855] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.249712] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.260038] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.261258] (-) TimerEvent: {}
+[3.363445] (-) TimerEvent: {}
+[3.465932] (-) TimerEvent: {}
+[3.531435] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.550886] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.551686] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.552229] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.563850] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.567404] (-) TimerEvent: {}
+[3.568392] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.582974] (turtlebot3_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.584812] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.585778] (turtlebot3_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.595559] (turtlebot3_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.602984] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.622364] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.624979] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.625229] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.634771] (turtlebot3_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.638895] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.665700] (custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.667140] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.667576] (-) TimerEvent: {}
+[3.667773] (custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.679200] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.767918] (-) TimerEvent: {}
+[3.869930] (-) TimerEvent: {}
+[3.920151] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.955216] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.956508] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.956649] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.970882] (-) TimerEvent: {}
+[3.971433] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.071920] (-) TimerEvent: {}
+[4.172947] (-) TimerEvent: {}
+[4.268774] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.273870] (-) TimerEvent: {}
+[4.276487] (turtlebot3_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.337845] (turtlebot3_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.359353] (custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.374900] (-) TimerEvent: {}
+[4.441770] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.450294] (turtlebot3_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.478974] (-) TimerEvent: {}
+[4.512330] (turtlebot3_node) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.8.3 (/opt/ros/humble/share/dynamixel_sdk/cmake)\n'}
+[4.513585] (turtlebot3_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.516488] (turtlebot3_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.545124] (custom_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.553730] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.557916] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.565205] (turtlebot3_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.570644] (turtlebot3_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.576209] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.579244] (-) TimerEvent: {}
+[4.591755] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.592699] (turtlebot3_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.598886] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.602379] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.636243] (turtlebot3_node) StdoutLine: {'line': b'-- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[4.638804] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.642167] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.669739] (custom_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.675308] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.678001] (turtlebot3_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.679938] (-) TimerEvent: {}
+[4.696991] (custom_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.697602] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.722407] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Generating done\n'}
+[4.760082] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_cartographer\n'}
+[4.769287] (turtlebot3_cartographer) CommandEnded: {'returncode': 0}
+[4.770093] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'build'}
+[4.779471] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3_cartographer', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_cartographer', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_cartographer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.785912] (-) TimerEvent: {}
+[4.804468] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.845362] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.889638] (-) TimerEvent: {}
+[4.892486] (turtlebot3_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.912420] (turtlebot3_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_description\n'}
+[4.921538] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[4.922264] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'build'}
+[4.933793] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3_description', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.989931] (-) TimerEvent: {}
+[5.060133] (turtlebot3_cartographer) CommandEnded: {'returncode': 0}
+[5.081079] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'install'}
+[5.091247] (-) TimerEvent: {}
+[5.115461] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.141077] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3_cartographer'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_cartographer', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_cartographer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.169847] (turtlebot3_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.170505] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[5.192063] (-) TimerEvent: {}
+[5.227935] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_navigation2\n'}
+[5.237128] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[5.238680] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.251249] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'build'}
+[5.252014] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3_navigation2', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.254155] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.259112] (turtlebot3_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.261696] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua\n'}
+[5.263990] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[5.267001] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'install'}
+[5.272962] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3_description'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_description', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.295019] (-) TimerEvent: {}
+[5.304605] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py\n'}
+[5.318416] (turtlebot3_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.333385] (turtlebot3_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.337276] (turtlebot3_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.337706] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.346754] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl\n'}
+[5.347908] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py\n'}
+[5.388637] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl\n'}
+[5.389608] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz\n'}
+[5.396064] (-) TimerEvent: {}
+[5.424853] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl\n'}
+[5.435977] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer\n'}
+[5.469257] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae\n'}
+[5.476277] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer\n'}
+[5.496909] (-) TimerEvent: {}
+[5.513661] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg\n'}
+[5.514501] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh\n'}
+[5.531544] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[5.539121] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'install'}
+[5.545787] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3_navigation2'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.553038] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl\n'}
+[5.573199] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv\n'}
+[5.600006] (-) TimerEvent: {}
+[5.617892] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae\n'}
+[5.627456] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.636549] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.641093] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh\n'}
+[5.658790] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py\n'}
+[5.669402] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg\n'}
+[5.686032] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.698276] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv\n'}
+[5.700588] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm\n'}
+[5.702229] (-) TimerEvent: {}
+[5.714186] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl\n'}
+[5.742481] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash\n'}
+[5.752087] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml\n'}
+[5.755241] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl\n'}
+[5.793754] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml\n'}
+[5.795255] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh\n'}
+[5.796560] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz\n'}
+[5.802889] (-) TimerEvent: {}
+[5.838882] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml\n'}
+[5.839683] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh\n'}
+[5.854637] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf\n'}
+[5.885822] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv\n'}
+[5.889377] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml\n'}
+[5.903914] (-) TimerEvent: {}
+[5.908765] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf\n'}
+[5.930276] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv\n'}
+[5.935920] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml\n'}
+[5.959206] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf\n'}
+[5.983679] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer\n'}
+[5.991529] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml\n'}
+[6.004237] (turtlebot3_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.006704] (-) TimerEvent: {}
+[6.007456] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf\n'}
+[6.011490] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.039506] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml\n'}
+[6.046156] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake\n'}
+[6.054021] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description\n'}
+[6.109157] (-) TimerEvent: {}
+[6.114093] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake\n'}
+[6.115587] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml\n'}
+[6.124712] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description\n'}
+[6.159129] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml\n'}
+[6.163181] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml\n'}
+[6.181958] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh\n'}
+[6.203728] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz\n'}
+[6.211025] (-) TimerEvent: {}
+[6.215081] (turtlebot3_cartographer) CommandEnded: {'returncode': 0}
+[6.226047] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv\n'}
+[6.268878] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh\n'}
+[6.270908] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2\n'}
+[6.310909] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv\n'}
+[6.311736] (-) TimerEvent: {}
+[6.312404] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2\n'}
+[6.340248] (turtlebot3_cartographer) JobEnded: {'identifier': 'turtlebot3_cartographer', 'rc': 0}
+[6.361595] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash\n'}
+[6.370258] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh\n'}
+[6.412516] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv\n'}
+[6.413329] (-) TimerEvent: {}
+[6.423043] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh\n'}
+[6.456683] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh\n'}
+[6.474288] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh\n'}
+[6.505708] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv\n'}
+[6.513926] (-) TimerEvent: {}
+[6.521316] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv\n'}
+[6.547046] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash\n'}
+[6.570488] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv\n'}
+[6.641579] (-) TimerEvent: {}
+[6.695846] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh\n'}
+[6.721331] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description\n'}
+[6.744844] (-) TimerEvent: {}
+[6.792191] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake\n'}
+[6.804629] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh\n'}
+[6.849768] (-) TimerEvent: {}
+[6.865660] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake\n'}
+[6.905559] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv\n'}
+[6.932391] (turtlebot3_description) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml\n'}
+[6.952914] (-) TimerEvent: {}
+[6.970292] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv\n'}
+[6.977776] (turtlebot3_description) CommandEnded: {'returncode': 0}
+[7.016382] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2\n'}
+[7.018230] (turtlebot3_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.025914] (turtlebot3_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.053916] (-) TimerEvent: {}
+[7.059455] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 0}
+[7.064646] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake\n'}
+[7.072652] (turtlebot3_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[7.096322] (turtlebot3_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.115485] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake\n'}
+[7.116759] (turtlebot3_node) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.130542] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.141860] (turtlebot3_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[7.154963] (-) TimerEvent: {}
+[7.156816] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml\n'}
+[7.207633] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[7.208920] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.240839] (turtlebot3_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.4.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[7.266452] (-) TimerEvent: {}
+[7.296897] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 0}
+[7.366937] (-) TimerEvent: {}
+[7.469930] (-) TimerEvent: {}
+[7.562350] (turtlebot3_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.570910] (-) TimerEvent: {}
+[7.654156] (turtlebot3_node) StdoutLine: {'line': b'-- Generating done\n'}
+[7.671915] (-) TimerEvent: {}
+[7.690651] (turtlebot3_node) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_node\n'}
+[7.706044] (turtlebot3_node) CommandEnded: {'returncode': 0}
+[7.716937] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'build'}
+[7.717202] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3_node', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_node', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.772933] (-) TimerEvent: {}
+[7.873950] (-) TimerEvent: {}
+[7.977306] (-) TimerEvent: {}
+[8.077917] (-) TimerEvent: {}
+[8.184848] (-) TimerEvent: {}
+[8.204048] (turtlebot3_node) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o\x1b[0m\n'}
+[8.204713] (turtlebot3_node) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o\x1b[0m\n'}
+[8.207582] (turtlebot3_node) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o\x1b[0m\n'}
+[8.212434] (turtlebot3_node) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o\x1b[0m\n'}
+[8.218892] (turtlebot3_node) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o\x1b[0m\n'}
+[8.220280] (turtlebot3_node) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o\x1b[0m\n'}
+[8.224743] (turtlebot3_node) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o\x1b[0m\n'}
+[8.225383] (turtlebot3_node) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o\x1b[0m\n'}
+[8.225607] (turtlebot3_node) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o\x1b[0m\n'}
+[8.236018] (turtlebot3_node) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o\x1b[0m\n'}
+[8.284934] (-) TimerEvent: {}
+[8.392000] (-) TimerEvent: {}
+[8.493073] (-) TimerEvent: {}
+[8.594181] (-) TimerEvent: {}
+[8.658282] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.695549] (-) TimerEvent: {}
+[8.764675] (custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.767510] (custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.795932] (-) TimerEvent: {}
+[8.887100] (custom_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.888494] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.889603] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.891319] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.896884] (-) TimerEvent: {}
+[8.989038] (custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.997961] (-) TimerEvent: {}
+[9.098951] (-) TimerEvent: {}
+[9.200036] (-) TimerEvent: {}
+[9.270799] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.300929] (-) TimerEvent: {}
+[9.402542] (-) TimerEvent: {}
+[9.460282] (custom_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.469934] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.476109] (custom_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.503103] (-) TimerEvent: {}
+[9.604197] (-) TimerEvent: {}
+[9.639539] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.705130] (-) TimerEvent: {}
+[9.807725] (custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.810446] (-) TimerEvent: {}
+[9.822076] (turtlebot3_node) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o\x1b[0m\n'}
+[9.911769] (-) TimerEvent: {}
+[10.014067] (-) TimerEvent: {}
+[10.114996] (-) TimerEvent: {}
+[10.216973] (-) TimerEvent: {}
+[10.317981] (-) TimerEvent: {}
+[10.420966] (-) TimerEvent: {}
+[10.523676] (-) TimerEvent: {}
+[10.635401] (-) TimerEvent: {}
+[10.738942] (-) TimerEvent: {}
+[10.852871] (-) TimerEvent: {}
+[10.955428] (-) TimerEvent: {}
+[11.056948] (-) TimerEvent: {}
+[11.159374] (-) TimerEvent: {}
+[11.263913] (-) TimerEvent: {}
+[11.369320] (-) TimerEvent: {}
+[11.476133] (-) TimerEvent: {}
+[11.578841] (-) TimerEvent: {}
+[11.680081] (custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[11.685224] (-) TimerEvent: {}
+[11.787954] (-) TimerEvent: {}
+[11.899799] (-) TimerEvent: {}
+[12.012941] (-) TimerEvent: {}
+[12.114040] (-) TimerEvent: {}
+[12.178881] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/custom_msgs\n'}
+[12.214945] (-) TimerEvent: {}
+[12.220884] (custom_msgs) CommandEnded: {'returncode': 0}
+[12.235855] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[12.335477] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/custom_msgs', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.352101] (-) TimerEvent: {}
+[12.455946] (-) TimerEvent: {}
+[12.565932] (-) TimerEvent: {}
+[12.669028] (-) TimerEvent: {}
+[12.832851] (-) TimerEvent: {}
+[12.964854] (-) TimerEvent: {}
+[13.080295] (-) TimerEvent: {}
+[13.182076] (-) TimerEvent: {}
+[13.285688] (-) TimerEvent: {}
+[13.386945] (-) TimerEvent: {}
+[13.491969] (-) TimerEvent: {}
+[13.603873] (-) TimerEvent: {}
+[13.704966] (-) TimerEvent: {}
+[13.816943] (-) TimerEvent: {}
+[13.885087] (custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.920380] (-) TimerEvent: {}
+[14.021940] (-) TimerEvent: {}
+[14.125933] (-) TimerEvent: {}
+[14.229932] (-) TimerEvent: {}
+[14.270886] (custom_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_custom_msgs\n'}
+[14.319187] (custom_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.330874] (-) TimerEvent: {}
+[14.433946] (-) TimerEvent: {}
+[14.538327] (-) TimerEvent: {}
+[14.643019] (-) TimerEvent: {}
+[14.753475] (-) TimerEvent: {}
+[14.856936] (-) TimerEvent: {}
+[14.967905] (-) TimerEvent: {}
+[15.075883] (-) TimerEvent: {}
+[15.177977] (-) TimerEvent: {}
+[15.287219] (-) TimerEvent: {}
+[15.404937] (-) TimerEvent: {}
+[15.508965] (-) TimerEvent: {}
+[15.614041] (-) TimerEvent: {}
+[15.723288] (-) TimerEvent: {}
+[15.847366] (-) TimerEvent: {}
+[15.953135] (-) TimerEvent: {}
+[16.070950] (-) TimerEvent: {}
+[16.188941] (-) TimerEvent: {}
+[16.293858] (-) TimerEvent: {}
+[16.398241] (-) TimerEvent: {}
+[16.502225] (-) TimerEvent: {}
+[16.572987] (custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[16.600901] (custom_msgs) StdoutLine: {'line': b'creating custom_msgs.egg-info\n'}
+[16.628160] (-) TimerEvent: {}
+[16.653230] (custom_msgs) StdoutLine: {'line': b'writing custom_msgs.egg-info/PKG-INFO\n'}
+[16.655993] (custom_msgs) StdoutLine: {'line': b'writing dependency_links to custom_msgs.egg-info/dependency_links.txt\n'}
+[16.674391] (custom_msgs) StdoutLine: {'line': b'writing top-level names to custom_msgs.egg-info/top_level.txt\n'}
+[16.683204] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[16.732899] (-) TimerEvent: {}
+[16.797344] (custom_msgs) StdoutLine: {'line': b"reading manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[16.833943] (-) TimerEvent: {}
+[16.866930] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[16.939822] (-) TimerEvent: {}
+[17.054033] (-) TimerEvent: {}
+[17.106648] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target custom_msgs__cpp\n'}
+[17.157272] (-) TimerEvent: {}
+[17.266330] (-) TimerEvent: {}
+[17.275311] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_custom_msgs_egg\n'}
+[17.381597] (-) TimerEvent: {}
+[17.490727] (-) TimerEvent: {}
+[17.534694] (custom_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/detected_object__functions.c.o\x1b[0m\n'}
+[17.535696] (custom_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/detected_object_array__functions.c.o\x1b[0m\n'}
+[17.536317] (custom_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.580045] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.585882] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.590875] (-) TimerEvent: {}
+[17.695939] (-) TimerEvent: {}
+[17.803995] (-) TimerEvent: {}
+[17.921021] (-) TimerEvent: {}
+[18.051042] (-) TimerEvent: {}
+[18.156048] (-) TimerEvent: {}
+[18.265371] (-) TimerEvent: {}
+[18.376949] (-) TimerEvent: {}
+[18.487225] (-) TimerEvent: {}
+[18.594644] (-) TimerEvent: {}
+[18.696042] (-) TimerEvent: {}
+[18.807103] (-) TimerEvent: {}
+[18.914642] (-) TimerEvent: {}
+[19.020883] (-) TimerEvent: {}
+[19.122044] (-) TimerEvent: {}
+[19.228806] (-) TimerEvent: {}
+[19.332948] (-) TimerEvent: {}
+[19.441715] (-) TimerEvent: {}
+[19.457775] (custom_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[19.541988] (-) TimerEvent: {}
+[19.595084] (custom_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/detected_object__type_support.cpp.o\x1b[0m\n'}
+[19.644331] (-) TimerEvent: {}
+[19.650079] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/detected_object_array__type_support.cpp.o\x1b[0m\n'}
+[19.666646] (custom_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/detected_object__type_support.cpp.o\x1b[0m\n'}
+[19.678939] (custom_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/detected_object_array__type_support.cpp.o\x1b[0m\n'}
+[19.728590] (custom_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/detected_object__type_support.cpp.o\x1b[0m\n'}
+[19.743925] (-) TimerEvent: {}
+[19.770560] (custom_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/detected_object_array__type_support.cpp.o\x1b[0m\n'}
+[19.846137] (-) TimerEvent: {}
+[19.957729] (-) TimerEvent: {}
+[20.060517] (-) TimerEvent: {}
+[20.151660] (custom_msgs) StdoutLine: {'line': b'[ 35%] Built target custom_msgs__rosidl_generator_c\n'}
+[20.160999] (-) TimerEvent: {}
+[20.263697] (-) TimerEvent: {}
+[20.332812] (custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.355475] (custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.364471] (custom_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[20.374278] (-) TimerEvent: {}
+[20.477478] (-) TimerEvent: {}
+[20.580726] (-) TimerEvent: {}
+[20.685083] (-) TimerEvent: {}
+[20.786338] (-) TimerEvent: {}
+[20.887989] (-) TimerEvent: {}
+[21.003172] (-) TimerEvent: {}
+[21.124075] (-) TimerEvent: {}
+[21.229544] (-) TimerEvent: {}
+[21.248895] (custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/detected_object__type_support.cpp.o\x1b[0m\n'}
+[21.257487] (custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/detected_object_array__type_support.cpp.o\x1b[0m\n'}
+[21.311976] (custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/detected_object__type_support_c.cpp.o\x1b[0m\n'}
+[21.330175] (-) TimerEvent: {}
+[21.355202] (custom_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/detected_object__type_support.c.o\x1b[0m\n'}
+[21.401493] (custom_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/detected_object_array__type_support.c.o\x1b[0m\n'}
+[21.432167] (-) TimerEvent: {}
+[21.524787] (custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.532876] (-) TimerEvent: {}
+[21.640023] (-) TimerEvent: {}
+[21.744933] (-) TimerEvent: {}
+[21.848030] (-) TimerEvent: {}
+[21.905311] (custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/detected_object_array__type_support_c.cpp.o\x1b[0m\n'}
+[21.944508] (custom_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.951903] (-) TimerEvent: {}
+[22.024440] (custom_msgs) StdoutLine: {'line': b'[ 64%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[22.052933] (-) TimerEvent: {}
+[22.056014] (custom_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.074315] (custom_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[22.153922] (-) TimerEvent: {}
+[22.209501] (custom_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.255824] (-) TimerEvent: {}
+[22.304571] (custom_msgs) StdoutLine: {'line': b'[ 71%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[22.355929] (-) TimerEvent: {}
+[22.386396] (custom_msgs) StdoutLine: {'line': b'[ 71%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.425382] (custom_msgs) StdoutLine: {'line': b'[ 71%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[22.456923] (-) TimerEvent: {}
+[22.468036] (custom_msgs) StdoutLine: {'line': b'[ 71%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[22.557927] (-) TimerEvent: {}
+[22.662147] (-) TimerEvent: {}
+[22.802112] (-) TimerEvent: {}
+[22.920078] (-) TimerEvent: {}
+[23.021921] (-) TimerEvent: {}
+[23.034879] (custom_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.122930] (-) TimerEvent: {}
+[23.228273] (-) TimerEvent: {}
+[23.275086] (custom_msgs) StdoutLine: {'line': b'[ 74%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[23.328965] (-) TimerEvent: {}
+[23.431012] (-) TimerEvent: {}
+[23.464593] (custom_msgs) StdoutLine: {'line': b'[ 74%] Built target custom_msgs\n'}
+[23.531937] (-) TimerEvent: {}
+[23.635935] (-) TimerEvent: {}
+[23.653473] (custom_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.736923] (-) TimerEvent: {}
+[23.837919] (-) TimerEvent: {}
+[23.939935] (-) TimerEvent: {}
+[24.040938] (-) TimerEvent: {}
+[24.143057] (-) TimerEvent: {}
+[24.245346] (-) TimerEvent: {}
+[24.346956] (-) TimerEvent: {}
+[24.389891] (custom_msgs) StdoutLine: {'line': b'[ 76%] Built target custom_msgs__py\n'}
+[24.449908] (-) TimerEvent: {}
+[24.552978] (-) TimerEvent: {}
+[24.585378] (custom_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_detected_object_s.c.o\x1b[0m\n'}
+[24.589093] (custom_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_detected_object_array_s.c.o\x1b[0m\n'}
+[24.655792] (-) TimerEvent: {}
+[24.761094] (-) TimerEvent: {}
+[24.862034] (-) TimerEvent: {}
+[24.967102] (-) TimerEvent: {}
+[25.071473] (-) TimerEvent: {}
+[25.176939] (-) TimerEvent: {}
+[25.207636] (custom_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[25.277919] (-) TimerEvent: {}
+[25.380967] (-) TimerEvent: {}
+[25.441945] (custom_msgs) StdoutLine: {'line': b'[ 84%] Built target custom_msgs__rosidl_generator_py\n'}
+[25.482114] (-) TimerEvent: {}
+[25.583201] (-) TimerEvent: {}
+[25.686021] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[25.687012] (-) TimerEvent: {}
+[25.692874] (custom_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.705163] (custom_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.787930] (-) TimerEvent: {}
+[25.888952] (-) TimerEvent: {}
+[25.990030] (-) TimerEvent: {}
+[26.090949] (-) TimerEvent: {}
+[26.193969] (-) TimerEvent: {}
+[26.294946] (-) TimerEvent: {}
+[26.338491] (custom_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.354811] (custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.382196] (custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.395910] (-) TimerEvent: {}
+[26.496935] (-) TimerEvent: {}
+[26.595844] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[26.597864] (-) TimerEvent: {}
+[26.620778] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_c__pyext\n'}
+[26.626714] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.684368] (custom_msgs) CommandEnded: {'returncode': 0}
+[26.687066] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[26.687567] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/custom_msgs'], 'cwd': '/home/ros2/simu_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.699122] (-) TimerEvent: {}
+[26.745822] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.748751] (custom_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.753445] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[26.799128] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__functions.h\n'}
+[26.799577] (-) TimerEvent: {}
+[26.836397] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__struct.h\n'}
+[26.872659] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__type_support.h\n'}
+[26.899913] (-) TimerEvent: {}
+[26.908784] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__functions.h\n'}
+[26.945712] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__struct.h\n'}
+[26.983115] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__type_support.h\n'}
+[27.000924] (-) TimerEvent: {}
+[27.020275] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detected_object.h\n'}
+[27.056919] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detected_object_array.h\n'}
+[27.092902] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.104890] (-) TimerEvent: {}
+[27.130476] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[27.168972] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[27.205987] (-) TimerEvent: {}
+[27.208639] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_c.h\n'}
+[27.245206] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[27.282529] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.306896] (-) TimerEvent: {}
+[27.319768] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__rosidl_typesupport_introspection_c.h\n'}
+[27.360008] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__rosidl_typesupport_introspection_c.h\n'}
+[27.405978] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.410896] (-) TimerEvent: {}
+[27.448806] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__builder.hpp\n'}
+[27.488255] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__struct.hpp\n'}
+[27.513930] (-) TimerEvent: {}
+[27.526295] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__traits.hpp\n'}
+[27.565204] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__type_support.hpp\n'}
+[27.603203] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__builder.hpp\n'}
+[27.614920] (-) TimerEvent: {}
+[27.642597] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__struct.hpp\n'}
+[27.683980] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__traits.hpp\n'}
+[27.716929] (-) TimerEvent: {}
+[27.723225] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__type_support.hpp\n'}
+[27.767247] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detected_object.hpp\n'}
+[27.808603] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detected_object_array.hpp\n'}
+[27.817905] (-) TimerEvent: {}
+[27.879739] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.920937] (-) TimerEvent: {}
+[27.944994] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.987986] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.023312] (-) TimerEvent: {}
+[28.033475] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.083797] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.120231] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/detected_object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.125889] (-) TimerEvent: {}
+[28.158164] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[28.195969] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[28.228219] (-) TimerEvent: {}
+[28.235072] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[28.283747] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[28.330891] (-) TimerEvent: {}
+[28.335641] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[28.378637] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[28.424181] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py\n'}
+[28.431901] (-) TimerEvent: {}
+[28.465001] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[28.506043] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.532918] (-) TimerEvent: {}
+[28.546677] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.617419] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.634925] (-) TimerEvent: {}
+[28.678859] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.720004] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.735916] (-) TimerEvent: {}
+[28.763004] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so\n'}
+[28.804753] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py\n'}
+[28.836919] (-) TimerEvent: {}
+[28.841782] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object.py\n'}
+[28.878292] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object_array.py\n'}
+[28.915032] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object_array_s.c\n'}
+[28.937920] (-) TimerEvent: {}
+[28.954582] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object_s.c\n'}
+[28.993697] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.994821] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.995864] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.996736] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/msg/DetectedObject.idl\n'}
+[29.039310] (-) TimerEvent: {}
+[29.040894] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/msg/DetectedObjectArray.idl\n'}
+[29.082389] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/msg/DetectedObject.msg\n'}
+[29.121122] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/msg/DetectedObjectArray.msg\n'}
+[29.140913] (-) TimerEvent: {}
+[29.162027] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[29.202474] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[29.243928] (-) TimerEvent: {}
+[29.246074] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[29.316665] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[29.345121] (-) TimerEvent: {}
+[29.368698] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[29.410797] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[29.445928] (-) TimerEvent: {}
+[29.453915] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[29.495416] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[29.534452] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[29.546960] (-) TimerEvent: {}
+[29.573350] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[29.612502] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[29.647982] (-) TimerEvent: {}
+[29.654644] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[29.696137] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[29.737757] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.750018] (-) TimerEvent: {}
+[29.777777] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.819448] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.850922] (-) TimerEvent: {}
+[29.858653] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.899360] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.946893] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.952093] (-) TimerEvent: {}
+[29.989066] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[30.029435] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[30.054968] (-) TimerEvent: {}
+[30.068301] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[30.111348] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[30.116326] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""\n'}
+[30.116686] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[30.120062] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.120394] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[30.120753] (turtlebot3_node) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX static library libturtlebot3_node_lib.a\x1b[0m\n'}
+[30.123632] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.124111] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[30.127308] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[30.127742] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.130282] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.130648] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[30.132920] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.133364] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[30.135841] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[30.155907] (-) TimerEvent: {}
+[30.259062] (-) TimerEvent: {}
+[30.309001] (custom_msgs) StdoutLine: {'line': b"Listing '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...\n"}
+[30.310204] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...\n"}
+[30.311068] (custom_msgs) StdoutLine: {'line': b"Listing '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...\n"}
+[30.311479] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...\n"}
+[30.312296] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object.py'...\n"}
+[30.312663] (custom_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_detected_object_array.py'...\n"}
+[30.314847] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so\n'}
+[30.321712] (custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/simu_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""\n'}
+[30.323012] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[30.330502] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.334439] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.339537] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.343885] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.347765] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.357097] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[30.359927] (-) TimerEvent: {}
+[30.361420] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.365993] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[30.370152] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.377327] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.379860] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.383662] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.387748] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[30.392295] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.395698] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[30.398569] (custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.408505] (custom_msgs) CommandEnded: {'returncode': 0}
+[30.461004] (-) TimerEvent: {}
+[30.484201] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[30.488598] (simubot_decision) JobStarted: {'identifier': 'simubot_decision'}
+[30.492117] (simubot_vision) JobStarted: {'identifier': 'simubot_vision'}
+[30.562208] (-) TimerEvent: {}
+[30.567596] (simubot_decision) JobProgress: {'identifier': 'simubot_decision', 'progress': 'cmake'}
+[30.574240] (simubot_decision) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/simubot_decision', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/simubot_decision'], 'cwd': '/home/ros2/simu_ws/build/simubot_decision', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_decision'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[30.663006] (-) TimerEvent: {}
+[30.764931] (-) TimerEvent: {}
+[30.865936] (-) TimerEvent: {}
+[30.966957] (-) TimerEvent: {}
+[31.068003] (-) TimerEvent: {}
+[31.133089] (simubot_decision) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[31.168990] (-) TimerEvent: {}
+[31.269971] (-) TimerEvent: {}
+[31.370912] (-) TimerEvent: {}
+[31.397731] (simubot_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2/simu_ws/build/simubot_vision/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2/simu_ws/build/simubot_vision', 'env': {'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/home/ros2/simu_ws/build/simubot_vision', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros2/simu_ws/build/simubot_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ros2/simu_ws/install/custom_msgs'}, 'shell': False}
+[31.471922] (-) TimerEvent: {}
+[31.501692] (simubot_decision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[31.532633] (simubot_decision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[31.572944] (-) TimerEvent: {}
+[31.673971] (-) TimerEvent: {}
+[31.741371] (simubot_vision) StdoutLine: {'line': b'running develop\n'}
+[31.774955] (-) TimerEvent: {}
+[31.841670] (simubot_vision) StdoutLine: {'line': b'running egg_info\n'}
+[31.842073] (simubot_vision) StdoutLine: {'line': b'creating simubot_vision.egg-info\n'}
+[31.842442] (simubot_vision) StdoutLine: {'line': b'writing simubot_vision.egg-info/PKG-INFO\n'}
+[31.844326] (simubot_vision) StdoutLine: {'line': b'writing dependency_links to simubot_vision.egg-info/dependency_links.txt\n'}
+[31.845132] (simubot_vision) StdoutLine: {'line': b'writing entry points to simubot_vision.egg-info/entry_points.txt\n'}
+[31.846165] (simubot_vision) StdoutLine: {'line': b'writing requirements to simubot_vision.egg-info/requires.txt\n'}
+[31.846730] (simubot_vision) StdoutLine: {'line': b'writing top-level names to simubot_vision.egg-info/top_level.txt\n'}
+[31.847684] (simubot_vision) StdoutLine: {'line': b"writing manifest file 'simubot_vision.egg-info/SOURCES.txt'\n"}
+[31.851675] (simubot_vision) StdoutLine: {'line': b"reading manifest file 'simubot_vision.egg-info/SOURCES.txt'\n"}
+[31.854283] (simubot_vision) StdoutLine: {'line': b"writing manifest file 'simubot_vision.egg-info/SOURCES.txt'\n"}
+[31.855977] (simubot_vision) StdoutLine: {'line': b'running build_ext\n'}
+[31.856399] (simubot_vision) StdoutLine: {'line': b'Creating /home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages/simubot-vision.egg-link (link to .)\n'}
+[31.858558] (simubot_vision) StdoutLine: {'line': b'Installing vision_node script to /home/ros2/simu_ws/install/simubot_vision/lib/simubot_vision\n'}
+[31.860379] (simubot_vision) StdoutLine: {'line': b'\n'}
+[31.860665] (simubot_vision) StdoutLine: {'line': b'Installed /home/ros2/simu_ws/build/simubot_vision\n'}
+[31.861400] (simubot_vision) StdoutLine: {'line': b'running symlink_data\n'}
+[31.861708] (simubot_vision) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/simubot_vision/package.xml -> /home/ros2/simu_ws/install/simubot_vision/share/simubot_vision\n'}
+[31.862217] (simubot_vision) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/simubot_vision/share/ament_index\n'}
+[31.862780] (simubot_vision) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/simubot_vision/share/ament_index/resource_index\n'}
+[31.863139] (simubot_vision) StdoutLine: {'line': b'creating /home/ros2/simu_ws/install/simubot_vision/share/ament_index/resource_index/packages\n'}
+[31.863426] (simubot_vision) StdoutLine: {'line': b'symbolically linking /home/ros2/simu_ws/build/simubot_vision/resource/simubot_vision -> /home/ros2/simu_ws/install/simubot_vision/share/ament_index/resource_index/packages\n'}
+[31.876347] (-) TimerEvent: {}
+[31.886987] (simubot_vision) CommandEnded: {'returncode': 0}
+[31.909773] (simubot_vision) JobEnded: {'identifier': 'simubot_vision', 'rc': 0}
+[31.976967] (-) TimerEvent: {}
+[32.077968] (-) TimerEvent: {}
+[32.178952] (-) TimerEvent: {}
+[32.260808] (simubot_decision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.280049] (-) TimerEvent: {}
+[32.280539] (simubot_decision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.281515] (simubot_decision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.282063] (simubot_decision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.287742] (simubot_decision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.380945] (-) TimerEvent: {}
+[32.481961] (-) TimerEvent: {}
+[32.582943] (-) TimerEvent: {}
+[32.683941] (-) TimerEvent: {}
+[32.784963] (-) TimerEvent: {}
+[32.885977] (-) TimerEvent: {}
+[32.990028] (-) TimerEvent: {}
+[33.015649] (simubot_decision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.045420] (simubot_decision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.047165] (simubot_decision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.048264] (simubot_decision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.090985] (-) TimerEvent: {}
+[33.092626] (simubot_decision) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.191946] (-) TimerEvent: {}
+[33.292979] (-) TimerEvent: {}
+[33.393942] (-) TimerEvent: {}
+[33.494925] (-) TimerEvent: {}
+[33.595958] (-) TimerEvent: {}
+[33.696944] (-) TimerEvent: {}
+[33.797928] (-) TimerEvent: {}
+[33.829784] (simubot_decision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[33.898917] (-) TimerEvent: {}
+[33.998789] (simubot_decision) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[33.999120] (-) TimerEvent: {}
+[34.070341] (simubot_decision) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[34.099900] (-) TimerEvent: {}
+[34.139686] (simubot_decision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[34.149450] (simubot_decision) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[34.161144] (simubot_decision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[34.177013] (simubot_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.200502] (simubot_decision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.200883] (-) TimerEvent: {}
+[34.269426] (simubot_decision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[34.281285] (simubot_decision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[34.302010] (-) TimerEvent: {}
+[34.337994] (turtlebot3_node) StdoutLine: {'line': b'[ 85%] Built target turtlebot3_node_lib\n'}
+[34.402890] (-) TimerEvent: {}
+[34.507892] (-) TimerEvent: {}
+[34.558126] (turtlebot3_node) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o\x1b[0m\n'}
+[34.611860] (-) TimerEvent: {}
+[34.713124] (-) TimerEvent: {}
+[34.791422] (simubot_decision) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[34.814014] (-) TimerEvent: {}
+[34.831425] (simubot_decision) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[34.899172] (simubot_decision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[34.914887] (-) TimerEvent: {}
+[34.915586] (simubot_decision) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[35.015958] (-) TimerEvent: {}
+[35.117067] (-) TimerEvent: {}
+[35.218183] (-) TimerEvent: {}
+[35.319980] (-) TimerEvent: {}
+[35.427935] (-) TimerEvent: {}
+[35.462330] (simubot_decision) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[35.464070] (simubot_decision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.531999] (-) TimerEvent: {}
+[35.634205] (-) TimerEvent: {}
+[35.742175] (-) TimerEvent: {}
+[35.848424] (-) TimerEvent: {}
+[35.950660] (-) TimerEvent: {}
+[36.001637] (simubot_decision) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[36.004035] (simubot_decision) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.053938] (-) TimerEvent: {}
+[36.062842] (simubot_decision) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[36.078402] (simubot_decision) StdoutLine: {'line': b'-- Found custom_msgs: 0.0.0 (/home/ros2/simu_ws/install/custom_msgs/share/custom_msgs/cmake)\n'}
+[36.155917] (-) TimerEvent: {}
+[36.256950] (-) TimerEvent: {}
+[36.275851] (simubot_decision) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.320400] (simubot_decision) StdoutLine: {'line': b'-- Generating done\n'}
+[36.352957] (simubot_decision) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/simubot_decision\n'}
+[36.357873] (-) TimerEvent: {}
+[36.362169] (simubot_decision) CommandEnded: {'returncode': 0}
+[36.363033] (simubot_decision) JobProgress: {'identifier': 'simubot_decision', 'progress': 'build'}
+[36.363563] (simubot_decision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/simubot_decision', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/simubot_decision', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_decision'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[36.458951] (-) TimerEvent: {}
+[36.561930] (-) TimerEvent: {}
+[36.662924] (-) TimerEvent: {}
+[36.763433] (simubot_decision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/decision_engine.dir/src/decision_engine.cpp.o\x1b[0m\n'}
+[36.766504] (-) TimerEvent: {}
+[36.866922] (-) TimerEvent: {}
+[36.967980] (-) TimerEvent: {}
+[37.069943] (-) TimerEvent: {}
+[37.172950] (-) TimerEvent: {}
+[37.273943] (-) TimerEvent: {}
+[37.375937] (-) TimerEvent: {}
+[37.480918] (-) TimerEvent: {}
+[37.581943] (-) TimerEvent: {}
+[37.684934] (-) TimerEvent: {}
+[37.785920] (-) TimerEvent: {}
+[37.886922] (-) TimerEvent: {}
+[37.930843] (turtlebot3_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_ros\x1b[0m\n'}
+[37.987927] (-) TimerEvent: {}
+[38.090924] (-) TimerEvent: {}
+[38.195958] (-) TimerEvent: {}
+[38.296970] (-) TimerEvent: {}
+[38.398927] (-) TimerEvent: {}
+[38.499931] (-) TimerEvent: {}
+[38.600951] (-) TimerEvent: {}
+[38.704259] (-) TimerEvent: {}
+[38.808924] (-) TimerEvent: {}
+[38.909967] (-) TimerEvent: {}
+[39.010943] (-) TimerEvent: {}
+[39.111922] (-) TimerEvent: {}
+[39.212919] (-) TimerEvent: {}
+[39.313924] (-) TimerEvent: {}
+[39.414937] (-) TimerEvent: {}
+[39.516054] (-) TimerEvent: {}
+[39.616917] (-) TimerEvent: {}
+[39.717953] (-) TimerEvent: {}
+[39.819927] (-) TimerEvent: {}
+[39.920924] (-) TimerEvent: {}
+[40.021943] (-) TimerEvent: {}
+[40.128959] (-) TimerEvent: {}
+[40.232957] (-) TimerEvent: {}
+[40.337901] (-) TimerEvent: {}
+[40.438931] (-) TimerEvent: {}
+[40.539914] (-) TimerEvent: {}
+[40.640948] (-) TimerEvent: {}
+[40.741936] (-) TimerEvent: {}
+[40.842909] (-) TimerEvent: {}
+[40.943916] (-) TimerEvent: {}
+[41.044917] (-) TimerEvent: {}
+[41.145919] (-) TimerEvent: {}
+[41.246931] (-) TimerEvent: {}
+[41.347920] (-) TimerEvent: {}
+[41.448933] (-) TimerEvent: {}
+[41.549940] (-) TimerEvent: {}
+[41.650930] (-) TimerEvent: {}
+[41.752093] (-) TimerEvent: {}
+[41.856921] (-) TimerEvent: {}
+[41.960941] (-) TimerEvent: {}
+[42.062951] (-) TimerEvent: {}
+[42.077003] (turtlebot3_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_ros\n'}
+[42.127196] (turtlebot3_node) CommandEnded: {'returncode': 0}
+[42.129276] (turtlebot3_node) JobProgress: {'identifier': 'turtlebot3_node', 'progress': 'install'}
+[42.132292] (turtlebot3_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3_node'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_node', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[42.163894] (-) TimerEvent: {}
+[42.184080] (turtlebot3_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.187249] (turtlebot3_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[42.196809] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml\n'}
+[42.233143] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml\n'}
+[42.264924] (-) TimerEvent: {}
+[42.268403] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml\n'}
+[42.304871] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros\n'}
+[42.340004] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node\n'}
+[42.366904] (-) TimerEvent: {}
+[42.375869] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node\n'}
+[42.412017] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh\n'}
+[42.447250] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv\n'}
+[42.470895] (-) TimerEvent: {}
+[42.482909] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh\n'}
+[42.519151] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv\n'}
+[42.554189] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash\n'}
+[42.573889] (-) TimerEvent: {}
+[42.589601] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh\n'}
+[42.624324] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh\n'}
+[42.659723] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv\n'}
+[42.675897] (-) TimerEvent: {}
+[42.694612] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv\n'}
+[42.731213] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node\n'}
+[42.767380] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[42.776895] (-) TimerEvent: {}
+[42.806668] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[42.849222] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake\n'}
+[42.879924] (-) TimerEvent: {}
+[42.888227] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake\n'}
+[42.925384] (turtlebot3_node) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml\n'}
+[42.971541] (turtlebot3_node) CommandEnded: {'returncode': 0}
+[42.980885] (-) TimerEvent: {}
+[43.003236] (turtlebot3_node) JobEnded: {'identifier': 'turtlebot3_node', 'rc': 0}
+[43.006799] (turtlebot3_bringup) JobStarted: {'identifier': 'turtlebot3_bringup'}
+[43.052598] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'cmake'}
+[43.056982] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3_bringup'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_bringup', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble')]), 'shell': False}
+[43.081921] (-) TimerEvent: {}
+[43.203501] (-) TimerEvent: {}
+[43.317944] (-) TimerEvent: {}
+[43.422931] (-) TimerEvent: {}
+[43.523928] (-) TimerEvent: {}
+[43.592057] (turtlebot3_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[43.624031] (-) TimerEvent: {}
+[43.700913] (simubot_decision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable decision_engine\x1b[0m\n'}
+[43.725926] (-) TimerEvent: {}
+[43.827943] (-) TimerEvent: {}
+[43.928935] (-) TimerEvent: {}
+[43.958805] (turtlebot3_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[43.987732] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[44.030293] (-) TimerEvent: {}
+[44.130923] (-) TimerEvent: {}
+[44.235938] (-) TimerEvent: {}
+[44.346911] (-) TimerEvent: {}
+[44.450926] (-) TimerEvent: {}
+[44.549052] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[44.552126] (-) TimerEvent: {}
+[44.607307] (turtlebot3_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[44.609116] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[44.609671] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[44.614314] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[44.652949] (-) TimerEvent: {}
+[44.754098] (-) TimerEvent: {}
+[44.825899] (simubot_decision) StdoutLine: {'line': b'[100%] Built target decision_engine\n'}
+[44.854923] (-) TimerEvent: {}
+[44.887619] (simubot_decision) CommandEnded: {'returncode': 0}
+[44.889679] (simubot_decision) JobProgress: {'identifier': 'simubot_decision', 'progress': 'install'}
+[44.890029] (simubot_decision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/simubot_decision'], 'cwd': '/home/ros2/simu_ws/build/simubot_decision', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_decision'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[44.955976] (simubot_decision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.957619] (-) TimerEvent: {}
+[44.960337] (simubot_decision) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.966712] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/lib/simubot_decision/decision_engine\n'}
+[45.058100] (-) TimerEvent: {}
+[45.066522] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/package_run_dependencies/simubot_decision\n'}
+[45.116408] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/parent_prefix_path/simubot_decision\n'}
+[45.158903] (-) TimerEvent: {}
+[45.163446] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.sh\n'}
+[45.213334] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/ament_prefix_path.dsv\n'}
+[45.259920] (-) TimerEvent: {}
+[45.262000] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.sh\n'}
+[45.262722] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[45.279880] (turtlebot3_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[45.280703] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[45.281234] (turtlebot3_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[45.291602] (turtlebot3_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[45.305438] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/environment/path.dsv\n'}
+[45.351889] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.bash\n'}
+[45.360900] (-) TimerEvent: {}
+[45.389958] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.sh\n'}
+[45.429920] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.zsh\n'}
+[45.461875] (-) TimerEvent: {}
+[45.469195] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/local_setup.dsv\n'}
+[45.506017] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.dsv\n'}
+[45.548496] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/ament_index/resource_index/packages/simubot_decision\n'}
+[45.562925] (-) TimerEvent: {}
+[45.599159] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig.cmake\n'}
+[45.642748] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/cmake/simubot_decisionConfig-version.cmake\n'}
+[45.664943] (-) TimerEvent: {}
+[45.691535] (simubot_decision) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_decision/share/simubot_decision/package.xml\n'}
+[45.739218] (simubot_decision) CommandEnded: {'returncode': 0}
+[45.765959] (-) TimerEvent: {}
+[45.791741] (simubot_decision) JobEnded: {'identifier': 'simubot_decision', 'rc': 0}
+[45.794511] (simubot_launch) JobStarted: {'identifier': 'simubot_launch'}
+[45.866675] (simubot_launch) JobProgress: {'identifier': 'simubot_launch', 'progress': 'cmake'}
+[45.866857] (-) TimerEvent: {}
+[45.871491] (simubot_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/simubot_launch', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/simubot_launch'], 'cwd': '/home/ros2/simu_ws/build/simubot_launch', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_launch'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[45.967927] (-) TimerEvent: {}
+[45.990600] (turtlebot3_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[46.071942] (-) TimerEvent: {}
+[46.169076] (turtlebot3_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[46.172891] (-) TimerEvent: {}
+[46.273961] (-) TimerEvent: {}
+[46.367820] (simubot_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[46.376873] (-) TimerEvent: {}
+[46.462957] (turtlebot3_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[46.478007] (-) TimerEvent: {}
+[46.486408] (turtlebot3_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[46.504916] (turtlebot3_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3_bringup\n'}
+[46.509480] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[46.510177] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'build'}
+[46.513171] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3_bringup', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_bringup', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble')]), 'shell': False}
+[46.578919] (-) TimerEvent: {}
+[46.679918] (-) TimerEvent: {}
+[46.741593] (simubot_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[46.769085] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[46.772277] (simubot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[46.772848] (turtlebot3_bringup) JobProgress: {'identifier': 'turtlebot3_bringup', 'progress': 'install'}
+[46.776609] (turtlebot3_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3_bringup'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3_bringup', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_description:/opt/ros/humble')]), 'shell': False}
+[46.783870] (-) TimerEvent: {}
+[46.831853] (turtlebot3_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.838908] (turtlebot3_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.848916] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/camera.launch.py\n'}
+[46.886888] (-) TimerEvent: {}
+[46.895376] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py\n'}
+[46.943045] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py\n'}
+[46.979679] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py\n'}
+[46.987874] (-) TimerEvent: {}
+[47.029374] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml\n'}
+[47.068206] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml\n'}
+[47.088910] (-) TimerEvent: {}
+[47.103732] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml\n'}
+[47.139370] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml\n'}
+[47.177907] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml\n'}
+[47.192623] (-) TimerEvent: {}
+[47.226565] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml\n'}
+[47.265552] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules\n'}
+[47.292917] (-) TimerEvent: {}
+[47.311513] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules\n'}
+[47.356247] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup\n'}
+[47.393960] (-) TimerEvent: {}
+[47.397387] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup\n'}
+[47.423369] (simubot_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[47.442499] (simubot_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[47.443712] (simubot_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[47.444196] (simubot_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[47.447980] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh\n'}
+[47.449247] (simubot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[47.488381] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv\n'}
+[47.494889] (-) TimerEvent: {}
+[47.532005] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh\n'}
+[47.576592] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv\n'}
+[47.595912] (-) TimerEvent: {}
+[47.614464] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash\n'}
+[47.666349] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh\n'}
+[47.696909] (-) TimerEvent: {}
+[47.713400] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh\n'}
+[47.750909] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv\n'}
+[47.786765] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv\n'}
+[47.798057] (-) TimerEvent: {}
+[47.830363] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup\n'}
+[47.873534] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake\n'}
+[47.898962] (-) TimerEvent: {}
+[47.920526] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake\n'}
+[47.967448] (turtlebot3_bringup) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml\n'}
+[47.999928] (-) TimerEvent: {}
+[48.021582] (turtlebot3_bringup) CommandEnded: {'returncode': 0}
+[48.053934] (turtlebot3_bringup) JobEnded: {'identifier': 'turtlebot3_bringup', 'rc': 0}
+[48.065858] (turtlebot3) JobStarted: {'identifier': 'turtlebot3'}
+[48.100969] (-) TimerEvent: {}
+[48.113734] (simubot_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[48.136408] (simubot_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[48.137416] (simubot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[48.138699] (simubot_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[48.163724] (simubot_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[48.171945] (turtlebot3) JobProgress: {'identifier': 'turtlebot3', 'progress': 'cmake'}
+[48.176687] (turtlebot3) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/simu_ws/src/turtlebot3/turtlebot3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/turtlebot3'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros2/simu_ws/build/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble')]), 'shell': False}
+[48.201898] (-) TimerEvent: {}
+[48.304923] (-) TimerEvent: {}
+[48.408950] (-) TimerEvent: {}
+[48.512932] (-) TimerEvent: {}
+[48.613956] (-) TimerEvent: {}
+[48.645339] (turtlebot3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[48.716938] (-) TimerEvent: {}
+[48.817974] (-) TimerEvent: {}
+[48.859907] (simubot_launch) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[48.919944] (-) TimerEvent: {}
+[48.984709] (turtlebot3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[49.013579] (turtlebot3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[49.020905] (-) TimerEvent: {}
+[49.036197] (simubot_launch) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[49.122064] (-) TimerEvent: {}
+[49.194769] (simubot_launch) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[49.222915] (-) TimerEvent: {}
+[49.323935] (-) TimerEvent: {}
+[49.329608] (simubot_launch) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[49.349892] (simubot_launch) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[49.367386] (simubot_launch) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[49.394250] (simubot_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[49.424882] (-) TimerEvent: {}
+[49.425915] (simubot_launch) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[49.525910] (-) TimerEvent: {}
+[49.546583] (simubot_launch) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[49.554414] (simubot_launch) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[49.627121] (-) TimerEvent: {}
+[49.715726] (turtlebot3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[49.727879] (-) TimerEvent: {}
+[49.738346] (turtlebot3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[49.739455] (turtlebot3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[49.739821] (turtlebot3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[49.743459] (turtlebot3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[49.829043] (-) TimerEvent: {}
+[49.933914] (-) TimerEvent: {}
+[50.037931] (-) TimerEvent: {}
+[50.085778] (simubot_launch) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[50.138946] (-) TimerEvent: {}
+[50.141287] (simubot_launch) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[50.240070] (-) TimerEvent: {}
+[50.245620] (simubot_launch) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[50.286193] (simubot_launch) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[50.328273] (turtlebot3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[50.340931] (-) TimerEvent: {}
+[50.350891] (turtlebot3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[50.351289] (turtlebot3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[50.351556] (turtlebot3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[50.364063] (turtlebot3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[50.442465] (-) TimerEvent: {}
+[50.545922] (-) TimerEvent: {}
+[50.646927] (-) TimerEvent: {}
+[50.747909] (-) TimerEvent: {}
+[50.844575] (simubot_launch) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[50.846084] (simubot_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[50.849312] (-) TimerEvent: {}
+[50.950246] (-) TimerEvent: {}
+[51.050972] (-) TimerEvent: {}
+[51.081925] (turtlebot3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[51.151915] (-) TimerEvent: {}
+[51.239977] (turtlebot3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[51.252939] (-) TimerEvent: {}
+[51.354956] (-) TimerEvent: {}
+[51.454750] (simubot_launch) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[51.455924] (-) TimerEvent: {}
+[51.456430] (simubot_launch) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[51.558153] (-) TimerEvent: {}
+[51.573310] (simubot_launch) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[51.574085] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[51.645286] (turtlebot3) StdoutLine: {'line': b'-- Configuring done\n'}
+[51.658931] (-) TimerEvent: {}
+[51.666456] (turtlebot3) StdoutLine: {'line': b'-- Generating done\n'}
+[51.682921] (turtlebot3) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/turtlebot3\n'}
+[51.690948] (turtlebot3) CommandEnded: {'returncode': 0}
+[51.691707] (turtlebot3) JobProgress: {'identifier': 'turtlebot3', 'progress': 'build'}
+[51.694857] (turtlebot3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/turtlebot3', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros2/simu_ws/build/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble')]), 'shell': False}
+[51.699890] (simubot_launch) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[51.759892] (-) TimerEvent: {}
+[51.860953] (-) TimerEvent: {}
+[51.961918] (-) TimerEvent: {}
+[51.968223] (turtlebot3) CommandEnded: {'returncode': 0}
+[51.970663] (turtlebot3) JobProgress: {'identifier': 'turtlebot3', 'progress': 'install'}
+[51.972775] (turtlebot3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/turtlebot3'], 'cwd': '/home/ros2/simu_ws/build/turtlebot3', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/turtlebot3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/turtlebot3_teleop:/home/ros2/simu_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ros2/simu_ws/build/turtlebot3_example:/home/ros2/simu_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/turtlebot3_bringup:/home/ros2/simu_ws/install/turtlebot3_node:/home/ros2/simu_ws/install/turtlebot3_navigation2:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/turtlebot3_cartographer:/opt/ros/humble')]), 'shell': False}
+[52.033544] (turtlebot3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[52.037132] (turtlebot3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[52.042973] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3\n'}
+[52.063013] (-) TimerEvent: {}
+[52.092682] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3\n'}
+[52.143326] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh\n'}
+[52.164895] (-) TimerEvent: {}
+[52.187330] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv\n'}
+[52.232354] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/environment/path.sh\n'}
+[52.265911] (-) TimerEvent: {}
+[52.271383] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv\n'}
+[52.321452] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/local_setup.bash\n'}
+[52.365425] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/local_setup.sh\n'}
+[52.366877] (-) TimerEvent: {}
+[52.410130] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh\n'}
+[52.456647] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv\n'}
+[52.469881] (-) TimerEvent: {}
+[52.496579] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/package.dsv\n'}
+[52.521368] (simubot_launch) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[52.537405] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3\n'}
+[52.570940] (-) TimerEvent: {}
+[52.587479] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake\n'}
+[52.641432] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake\n'}
+[52.672056] (-) TimerEvent: {}
+[52.690432] (turtlebot3) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/turtlebot3/share/turtlebot3/package.xml\n'}
+[52.740016] (turtlebot3) CommandEnded: {'returncode': 0}
+[52.772982] (-) TimerEvent: {}
+[52.792377] (turtlebot3) JobEnded: {'identifier': 'turtlebot3', 'rc': 0}
+[52.873936] (-) TimerEvent: {}
+[52.975986] (-) TimerEvent: {}
+[52.998871] (simubot_launch) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[53.051049] (simubot_launch) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[53.077013] (-) TimerEvent: {}
+[53.126628] (simubot_launch) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[53.163820] (simubot_launch) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[53.177890] (-) TimerEvent: {}
+[53.179441] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[53.192807] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[53.194733] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[53.195108] (simubot_launch) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[53.213116] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[53.279018] (-) TimerEvent: {}
+[53.325740] (simubot_launch) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[53.379927] (-) TimerEvent: {}
+[53.484996] (-) TimerEvent: {}
+[53.587953] (-) TimerEvent: {}
+[53.617006] (simubot_launch) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[53.628533] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[53.637035] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[53.647905] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[53.648224] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[53.658862] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[53.659097] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[53.670055] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[53.670380] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[53.680650] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[53.680912] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[53.688902] (-) TimerEvent: {}
+[53.691555] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[53.691867] (simubot_launch) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[53.702164] (simubot_launch) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[53.792784] (-) TimerEvent: {}
+[53.893952] (-) TimerEvent: {}
+[53.994948] (-) TimerEvent: {}
+[54.078709] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[54.086887] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[54.087395] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[54.096112] (-) TimerEvent: {}
+[54.131393] (simubot_launch) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[54.147356] (simubot_launch) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[54.166217] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[54.197904] (-) TimerEvent: {}
+[54.273005] (simubot_launch) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[54.299642] (-) TimerEvent: {}
+[54.400935] (-) TimerEvent: {}
+[54.501924] (-) TimerEvent: {}
+[54.557505] (simubot_launch) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[54.579303] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[54.604868] (-) TimerEvent: {}
+[54.683953] (simubot_launch) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[54.705943] (-) TimerEvent: {}
+[54.808937] (-) TimerEvent: {}
+[54.911941] (-) TimerEvent: {}
+[54.951329] (simubot_launch) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[54.960131] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[54.960518] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[55.003226] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[55.012897] (-) TimerEvent: {}
+[55.021318] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[55.114891] (-) TimerEvent: {}
+[55.122489] (simubot_launch) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[55.215910] (-) TimerEvent: {}
+[55.317900] (-) TimerEvent: {}
+[55.391509] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[55.399877] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[55.400281] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[55.401029] (simubot_launch) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[55.401669] (simubot_launch) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[55.402805] (simubot_launch) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[55.418917] (-) TimerEvent: {}
+[55.432611] (simubot_launch) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[55.433379] (simubot_launch) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[55.440248] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[55.440655] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[55.441016] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[55.448076] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[55.448383] (simubot_launch) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[55.519952] (-) TimerEvent: {}
+[55.622917] (-) TimerEvent: {}
+[55.728319] (-) TimerEvent: {}
+[55.830917] (-) TimerEvent: {}
+[55.922499] (simubot_launch) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[55.931963] (-) TimerEvent: {}
+[55.948810] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[56.033430] (-) TimerEvent: {}
+[56.049963] (simubot_launch) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[56.135893] (-) TimerEvent: {}
+[56.239955] (-) TimerEvent: {}
+[56.316907] (simubot_launch) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[56.336289] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[56.342308] (-) TimerEvent: {}
+[56.439421] (simubot_launch) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[56.444880] (-) TimerEvent: {}
+[56.546897] (-) TimerEvent: {}
+[56.651937] (-) TimerEvent: {}
+[56.708492] (simubot_launch) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[56.709224] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[56.709573] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[56.709944] (simubot_launch) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[56.719329] (simubot_launch) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[56.719643] (simubot_launch) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[56.752895] (-) TimerEvent: {}
+[56.821223] (simubot_launch) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[56.853864] (-) TimerEvent: {}
+[56.960164] (-) TimerEvent: {}
+[57.066084] (-) TimerEvent: {}
+[57.111299] (simubot_launch) StdoutLine: {'line': b'-- Found turtlebot3_description: 2.3.1 (/home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/cmake)\n'}
+[57.166943] (-) TimerEvent: {}
+[57.270053] (-) TimerEvent: {}
+[57.291697] (simubot_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[57.324430] (simubot_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[57.350689] (simubot_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/simu_ws/build/simubot_launch\n'}
+[57.366964] (simubot_launch) CommandEnded: {'returncode': 0}
+[57.370405] (-) TimerEvent: {}
+[57.375025] (simubot_launch) JobProgress: {'identifier': 'simubot_launch', 'progress': 'build'}
+[57.375138] (simubot_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/simu_ws/build/simubot_launch', '--', '-j10', '-l10'], 'cwd': '/home/ros2/simu_ws/build/simubot_launch', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_launch'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[57.470960] (-) TimerEvent: {}
+[57.576968] (-) TimerEvent: {}
+[57.633244] (simubot_launch) CommandEnded: {'returncode': 0}
+[57.634777] (simubot_launch) JobProgress: {'identifier': 'simubot_launch', 'progress': 'install'}
+[57.635443] (simubot_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/simu_ws/build/simubot_launch'], 'cwd': '/home/ros2/simu_ws/build/simubot_launch', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/simu_ws/install/custom_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/home/ros2/simu_ws/build/simubot_launch'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble')]), 'shell': False}
+[57.677913] (-) TimerEvent: {}
+[57.692436] (simubot_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[57.696915] (simubot_launch) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[57.702905] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/simubot_full.launch.py\n'}
+[57.744654] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/package_run_dependencies/simubot_launch\n'}
+[57.779175] (-) TimerEvent: {}
+[57.782258] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/parent_prefix_path/simubot_launch\n'}
+[57.820706] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.sh\n'}
+[57.857449] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.dsv\n'}
+[57.879880] (-) TimerEvent: {}
+[57.894067] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.sh\n'}
+[57.930686] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.dsv\n'}
+[57.967811] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.bash\n'}
+[57.980877] (-) TimerEvent: {}
+[58.004960] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.sh\n'}
+[58.081937] (-) TimerEvent: {}
+[58.094731] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.zsh\n'}
+[58.180189] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.dsv\n'}
+[58.183114] (-) TimerEvent: {}
+[58.220987] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.dsv\n'}
+[58.260928] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/packages/simubot_launch\n'}
+[58.283900] (-) TimerEvent: {}
+[58.300348] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig.cmake\n'}
+[58.337842] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig-version.cmake\n'}
+[58.376147] (simubot_launch) StdoutLine: {'line': b'-- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.xml\n'}
+[58.384899] (-) TimerEvent: {}
+[58.420288] (simubot_launch) CommandEnded: {'returncode': 0}
+[58.443032] (simubot_launch) JobEnded: {'identifier': 'simubot_launch', 'rc': 0}
+[58.445333] (-) EventReactorShutdown: {}

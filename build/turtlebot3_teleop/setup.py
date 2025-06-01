@@ -1,1 +1,0 @@
-/home/ros2/simu_ws/src/turtlebot3/turtlebot3_teleop/setup.py

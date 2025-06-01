@@ -1,0 +1,17 @@
+[0.792s] Invoking command in '/home/ros2/simu_ws/build/simubot_vision': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/simubot_vision/build --no-deps symlink_data
+[1.044s] running develop
+[1.085s] running egg_info
+[1.085s] writing simubot_vision.egg-info/PKG-INFO
+[1.086s] writing dependency_links to simubot_vision.egg-info/dependency_links.txt
+[1.086s] writing entry points to simubot_vision.egg-info/entry_points.txt
+[1.087s] writing requirements to simubot_vision.egg-info/requires.txt
+[1.087s] writing top-level names to simubot_vision.egg-info/top_level.txt
+[1.090s] reading manifest file 'simubot_vision.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'simubot_vision.egg-info/SOURCES.txt'
+[1.092s] running build_ext
+[1.092s] Creating /home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages/simubot-vision.egg-link (link to .)
+[1.094s] Installing vision_node script to /home/ros2/simu_ws/install/simubot_vision/lib/simubot_vision
+[1.095s] 
+[1.095s] Installed /home/ros2/simu_ws/build/simubot_vision
+[1.096s] running symlink_data
+[1.115s] Invoked command in '/home/ros2/simu_ws/build/simubot_vision' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/custom_msgs LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros2/simu_ws/build/simubot_vision/build --no-deps symlink_data

@@ -1,0 +1,129 @@
+[0.082s] Invoking command in '/home/ros2/simu_ws/build/simubot_launch': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/simu_ws/src/simubot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/simubot_launch
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.947s] -- The CXX compiler identification is GNU 11.4.0
+[0.978s] -- Detecting C compiler ABI info
+[1.630s] -- Detecting C compiler ABI info - done
+[1.648s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.649s] -- Detecting C compile features
+[1.649s] -- Detecting C compile features - done
+[1.655s] -- Detecting CXX compiler ABI info
+[2.319s] -- Detecting CXX compiler ABI info - done
+[2.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.343s] -- Detecting CXX compile features
+[2.344s] -- Detecting CXX compile features - done
+[2.369s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.065s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.400s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.536s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.555s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.572s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.599s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.752s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.759s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.291s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.346s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.491s] -- Looking for pthread.h
+[5.050s] -- Looking for pthread.h - found
+[5.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.662s] -- Found Threads: TRUE  
+[5.778s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.779s] -- Checking for module 'bullet>=2.82'
+[5.905s] --   Found bullet, version 3.05
+[6.726s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.204s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.256s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.332s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[7.369s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.384s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.398s] -- Searching for dependencies of ignition-math6
+[7.400s] -- Looking for OGRE...
+[7.400s] -- OGRE_PREFIX_WATCH changed.
+[7.418s] -- Checking for module 'OGRE'
+[7.531s] --   Found OGRE, version 1.9.0
+[7.822s] -- Found Ogre Ghadamon (1.9.0)
+[7.834s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.842s] -- Looking for OGRE_Paging...
+[7.853s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.853s] -- Looking for OGRE_Terrain...
+[7.864s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.864s] -- Looking for OGRE_Property...
+[7.875s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.875s] -- Looking for OGRE_RTShaderSystem...
+[7.886s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.886s] -- Looking for OGRE_Volume...
+[7.897s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.897s] -- Looking for OGRE_Overlay...
+[7.907s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.284s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.292s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.292s] -- Searching for dependencies of ignition-transport8
+[8.337s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.352s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.371s] -- Checking for module 'libzmq >= 4'
+[8.478s] --   Found libzmq , version 4.3.4
+[8.763s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.784s] -- Checking for module 'uuid'
+[8.889s] --   Found uuid, version 2.37.2
+[9.157s] -- Found UUID: TRUE  
+[9.165s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.165s] -- Searching for dependencies of ignition-msgs5
+[9.208s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.226s] -- Checking for module 'tinyxml2'
+[9.328s] --   Found tinyxml2, version 9.0.0
+[9.597s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.605s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.605s] -- Searching for dependencies of ignition-common3
+[9.606s] -- Looking for dlfcn.h - found
+[9.607s] -- Looking for libdl - found
+[9.608s] -- Found DL: TRUE  
+[9.638s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[9.638s] -- Searching for <ignition-common3> component [graphics]
+[9.645s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[9.646s] -- Searching for dependencies of ignition-common3-graphics
+[9.646s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.653s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[9.653s] -- Searching for dependencies of ignition-fuel_tools4
+[10.128s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[10.154s] -- Checking for module 'jsoncpp'
+[10.255s] --   Found jsoncpp, version 1.9.5
+[10.522s] -- Found JSONCPP: TRUE  
+[10.541s] -- Checking for module 'libzip'
+[10.644s] --   Found libzip, version 1.7.3
+[10.914s] -- Found ZIP: TRUE  
+[10.914s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.915s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.915s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.924s] -- Gazebo version: 11.10
+[10.925s] -- Checking for module 'tbb'
+[11.026s] --   Found tbb, version 2021.5.0
+[11.317s] -- Found turtlebot3_description: 2.3.1 (/home/ros2/simu_ws/install/turtlebot3_description/share/turtlebot3_description/cmake)
+[11.497s] -- Configuring done
+[11.530s] -- Generating done
+[11.559s] -- Build files have been written to: /home/ros2/simu_ws/build/simubot_launch
+[11.573s] Invoked command in '/home/ros2/simu_ws/build/simubot_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/simu_ws/src/simubot_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros2/simu_ws/install/simubot_launch
+[11.581s] Invoking command in '/home/ros2/simu_ws/build/simubot_launch': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_launch -- -j10 -l10
+[11.838s] Invoked command in '/home/ros2/simu_ws/build/simubot_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/simu_ws/build/simubot_launch -- -j10 -l10
+[11.844s] Invoking command in '/home/ros2/simu_ws/build/simubot_launch': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_launch
+[11.898s] -- Install configuration: ""
+[11.903s] -- Execute custom install script
+[11.909s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/simubot_full.launch.py
+[11.950s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/package_run_dependencies/simubot_launch
+[11.987s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/parent_prefix_path/simubot_launch
+[12.026s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.sh
+[12.062s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/ament_prefix_path.dsv
+[12.099s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.sh
+[12.136s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/environment/path.dsv
+[12.173s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.bash
+[12.210s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.sh
+[12.300s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.zsh
+[12.385s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/local_setup.dsv
+[12.426s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.dsv
+[12.466s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/ament_index/resource_index/packages/simubot_launch
+[12.505s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig.cmake
+[12.543s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/cmake/simubot_launchConfig-version.cmake
+[12.581s] -- Symlinking: /home/ros2/simu_ws/install/simubot_launch/share/simubot_launch/package.xml
+[12.626s] Invoked command in '/home/ros2/simu_ws/build/simubot_launch' returned '0': AMENT_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_vision:/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/simu_ws/install/simubot_decision:/home/ros2/simu_ws/install/turtlebot3_description:/home/ros2/simu_ws/install/custom_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/simu_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/simu_ws/build/simubot_vision:/home/ros2/simu_ws/install/simubot_vision/lib/python3.10/site-packages:/home/ros2/simu_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/simu_ws/build/simubot_launch
