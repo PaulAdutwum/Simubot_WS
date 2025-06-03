@@ -2,24 +2,6 @@
 
 **SimuBot** is a complete, end-to-end robotics demo showcasing perception, decision-making, and autonomous navigation in a 3D simulated environment. Built on ROS 2 Humble and Gazebo 11, SimuBot drives a TurtleBot3-inspired “TattooBot” through a dynamic arena, detecting obstacles and making real-time motion decisions. This project is designed to be **easily reproducible** on Ubuntu 22.04 (WSL2/VM/dual-boot) or any Linux machine, and can run headless or with a full Gazebo GUI.
 
----
-
-## 🗺️ Table of Contents
-
-1. [Features](#features)  
-2. [Real-World Problem Solved](#real-world-problem-solved)  
-3. [Tech Stack](#tech-stack)  
-4. [Installation & Quick Start](#installation--quick-start)  
-   - [Prerequisites](#prerequisites)  
-   - [Workspace Setup](#workspace-setup)  
-   - [Build & Launch](#build--launch)  
-   - [Running with Gazebo GUI](#running-with-gazebo-gui)  
-5. [Package Structure](#package-structure)  
-6. [How It Works Under the Hood](#how-it-works-under-the-hood)  
-7. [Next Steps & Extensions](#next-steps--extensions)  
-8. [License & Contributions](#license--contributions)  
-
----
 
 ## 🔥 Features
 
